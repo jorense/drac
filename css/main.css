@@ -1023,8 +1023,17 @@ a:focus {
     .right-nav-item {
         color: #fff;
         font-size: 13px;
+        padding-left: 128px;
     }
+<<<<<<< HEAD
 
+=======
+    .navbar-brand img {
+    position: relative;
+    top: 3px;
+    left: 21px;
+    }
+>>>>>>> origin
     .about-us-2{
         background-image: url("../images/background-about-us-shaking-hands-mobile.jpg");
         background-repeat: no-repeat;
