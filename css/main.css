@@ -1,4 +1,6 @@
-
+.carousel-inner img {
+    width: 100%;
+}
 .full-wrapper {
     width: 100%;
     float: left;
