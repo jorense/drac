@@ -78,11 +78,13 @@
 .second-nav-background{
     background-color: #c31e21;
 }
+
 /*toggle trick ends here*/
 .navbar-default .navbar-nav>li>a {
     font-family:'Roboto', sans-serif;
     font-size: 1.5rem;
     color: #fff;
+    padding: 25px;
 }
 
 .navbar-default .navbar-nav>li>a:hover{
@@ -97,7 +99,7 @@
 
 .navbar-brand img{
     position: relative;
-    top: -5px;
+    top: 5px;
 }
 
 .selected{
@@ -394,6 +396,8 @@
     color: #585858;
     font-family: 'Roboto';
     text-align: center;
+    padding: 20px;
+    margin: 0;
 }
 
 .promo-btn-learn-more{
@@ -404,6 +408,8 @@
     color: #fff;
     border-color: #c31e21;
     font-weight:bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .promo-btn-learn-more:hover, .promo-btn-learn-more:focus {
@@ -672,8 +678,8 @@
     }
     .navbar-brand img {
         position: relative;
-        top: -44px;
-        left: 65px;
+        top: 5px;
+        left: 0;
     }
     .about-us-2{
         background-image: url("../images/background-about-us-shaking-hands-mobile.jpg");
@@ -736,6 +742,20 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
+
+   /*carousel style starts here*/
+
+    .carousel-control.left,  .carousel-control.right {
+        background-image: none;
+    }
+
+    .carousel-control {
+        width: 5%;
+        top: -15%;
+    }
+    /*carousel style ends here*/
+
+
     .footer-item-two {
         text-align: right;
     }
@@ -769,18 +789,20 @@
 
     .navbar-brand img {
         position: relative;
-        top: 2px;
+        top: 10px;
+        left: 0;
     }
 
     .navbar-brand img {
         position: relative;
-        top: 2px;
+        top: 10px;
         left: 0;
     }
 
     .right-nav-item {
         color: #fff;
         font-size: 20px;
+        padding-top: 13px;
     }
 
     .about-us-2 {
@@ -848,6 +870,19 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px){
+    /*carousel style starts here*/
+
+    .carousel-control.left,  .carousel-control.right {
+        background-image: none;
+    }
+
+    .carousel-control {
+        width: 5%;
+        top: -15%;
+    }
+    /*carousel style ends here*/
+
+
     .footer-item-two{
         text-align: right;
     }
@@ -882,6 +917,7 @@
     .right-nav-item {
         color: #fff;
         font-size: 20px;
+        padding-top: 7px;
     }
     .about-us-2{
         background-image: url("../images/background-about-us-shaking-hands.jpg");
