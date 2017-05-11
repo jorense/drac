@@ -79,9 +79,6 @@ include "module.inc";
                                     Contact Us
                                 </a>
                             </li>
-                            <li>
-                                <a href="https://www.facebook.com/DiamondRentaCar/" target="_blank" class="white-item hidden-lg "><i class="fa fa-facebook-square" aria-hidden="true"></i>
-                                </a></li>
 
                         </ul>
                     </div><!--/.nav-collapse -->

@@ -34,7 +34,7 @@ include "module.inc";
     <div class="navbar  navbar-default">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-9 col-xs-8">
+                <div clas="col-md-3">
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".navbar-offcanvas" data-canvas="body">
                             <span class="icon-bar"></span>
@@ -43,7 +43,9 @@ include "module.inc";
                         </button>
                         <a class="navbar-brand" href="index.php"><img src="images/diamond-rent-a-car-logo.png" class="img-responsive center-block"></a>
                     </div>
+                </div>
 
+                <div class="col-md-7">
                     <div class="navbar-offcanvas navmenu-fixed-left offcanvas">
                         <div class="navbar-header">
                             <button type="button" class="navbar-toggle nav-bar-mobile" data-toggle="offcanvas" data-target=".navbar-offcanvas" data-canvas="body">
@@ -76,29 +78,18 @@ include "module.inc";
                                     Contact Us
                                 </a>
                             </li>
-                            <li>
-                                <a href="https://www.facebook.com/DiamondRentaCar/" target="_blank" class="white-item hidden-lg "><i class="fa fa-facebook-square" aria-hidden="true"></i>
-                                </a></li>
 
                         </ul>
                     </div><!--/.nav-collapse -->
                 </div>
-                <div class="col-md-3 col-xs-4">
-                    <ul class="list-inline right-nav-item hidden-xs hidden-md">
+                <div class="col-md-2">
+                    <ul class="list-inline right-nav-item">
                         <li>
                             <a href="booking.php" class="book-now-link"> <p class="book-now">BOOK NOW </p></a></li>
                         <li>
-                            <a href="tel:(02) 821-1081" class="white-item"><i class="fa fa-phone" aria-hidden="true"></i> (02) 821-1081</a> </li>
+
                         <li><a href="https://www.facebook.com/DiamondRentaCar/" target="_blank" class="white-item"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
                     </ul>
-                    <!--show this on mobile-->
-                    <ul class="list-inline right-nav-item hidden-lg">
-                        <li>
-                            <a href="booking.php" class="book-now-link"> <p class="book-now">BOOK NOW</p></a></li>
-                        <br >
-                        <a href="tel:(02) 821-1081" class="white-item"><i class="fa fa-phone" aria-hidden="true"></i> (02) 821-1081</a>
-                    </ul>
-                    <!--sho this on mobile ends here-->
                 </div>
             </div>
         </div>
@@ -128,13 +119,12 @@ include "module.inc";
                     <p class="footer-item-one"> SMS Inquiry: 0917-869-84-56 | 0917-597-8744</p>
                 </div>
                 <div class="col-md-6">
-                    <p class="footer-item-two"> 24/7 Road-Side Assistance Hotline Number: (02) 822-0679 | (02) 400-2863</p>
+                    <p class="footer-item-two"> 24/7 Road-Side Assistance Hotline Number: (02) 822-0679 | (02) 400-2863 | (02) 821 -1081</p>
                 </div>
             </div>
         </div>
     </div>
 </div>
-
 
 <script src="form.js"></script>
 
