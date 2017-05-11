@@ -1,3 +1,15 @@
+a, button {
+	-o-transition:.5s;
+	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+	transition:.5s;
+}
+	
+a:focus {
+	outline: 0;
+}
+
 .carousel-inner img {
     width: 100%;
 }
@@ -73,8 +85,6 @@
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     color: #d3d431;
-    -webkit-transition: all 0.2s cubic-bezier(0.78, 0.21, 0.58, 1);
-    transition: all 0.2s cubic-bezier(0.78, 0.21, 0.58, 1);
 }
 
 .second-nav-background{
@@ -89,19 +99,19 @@
     padding: 25px;
 }
 
-.navbar-default .navbar-nav>li>a:hover{
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
     color: #d3d431;
     -webkit-transition: all 0.2s cubic-bezier(0.78, 0.21, 0.58, 1);
     transition: all 0.2s cubic-bezier(0.78, 0.21, 0.58, 1);
 
 }
 .navbar-brand {
-    padding: 1px 15px;
+    padding: 10px 15px;
+    margin: 0px 15px;
 }
 
 .navbar-brand img{
     position: relative;
-    top: 5px;
 }
 
 .selected{
@@ -678,11 +688,6 @@
         color: #fff;
         font-size: 13px;
     }
-    .navbar-brand img {
-        position: relative;
-        top: 5px;
-        left: 0;
-    }
     .about-us-2{
         background-image: url("../images/background-about-us-shaking-hands-mobile.jpg");
         background-repeat: no-repeat;
@@ -787,18 +792,6 @@
 
     .navbar-default .navbar-offcanvas {
         width: auto;
-    }
-
-    .navbar-brand img {
-        position: relative;
-        top: 10px;
-        left: 0;
-    }
-
-    .navbar-brand img {
-        position: relative;
-        top: 10px;
-        left: 0;
     }
 
     .right-nav-item {
@@ -911,11 +904,7 @@
     .navbar-default .navbar-offcanvas{
         width: auto;
     }
-    .navbar-brand img {
-        position: relative;
-        top: -5px;
-        left: 0;
-    }
+
     .right-nav-item {
         color: #fff;
         font-size: 20px;
@@ -1035,11 +1024,7 @@
         color: #fff;
         font-size: 13px;
     }
-    .navbar-brand img {
-        position: relative;
-        top: -44px;
-        left: 65px;
-    }
+
     .about-us-2{
         background-image: url("../images/background-about-us-shaking-hands-mobile.jpg");
         background-repeat: no-repeat;
@@ -1168,4 +1153,11 @@
         height: 160vh;
     }
 }
+
+.full-wrapper .container-fluid {
+	max-width: 1400px;
+	padding: 0px 40px;
+	margin: 0 auto !important;
+}
+
 
