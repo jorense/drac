@@ -68,19 +68,6 @@
 		max-width: 700px;
 		margin: 0px;
 	}
-	
-		
-	#form-container #reservation #field{
-		display: block;
-		max-width: 100%;
-		margin: 0px;
-	}
-
-	#form-container #reservation #field-submit{
-		display: block;
-		max-width: 100%;
-		margin: 0px;
-	}
 }
 
 @media (min-width: 700px){ 
@@ -114,18 +101,6 @@
 	#form-container #filter-result #car-container{
 		max-width: 260px;
 		margin: 0px 25px;
-	}
-	
-	#form-container #reservation #field{
-		display: inline-block;
-		max-width: 160px;
-		margin: 0px 5px;
-	}
-
-	#form-container #reservation #field-submit{
-		display: inline-block;
-		max-width: 295px;
-		margin: 0px 5px;
 	}
 
 	#form-container #reservation .form-control{
@@ -437,10 +412,6 @@
 	margin: 0px -5px;
 }
 
-#form-container #reservation #field{
-	width: 100%;
-}
-
 #form-container #reservation #field-submit .reservation-btn{
 	width: 100%;
 	background-color: #dd0000;
@@ -501,4 +472,60 @@
 	color: #dd0000;
 	padding: 0px;
 	margin: 0px;
+}
+
+@media (min-width: 0px){ 
+	#form-container #reservation #field{
+		display: block;
+		max-width: 100%;
+		margin: 0px;
+	}
+
+	#form-container #reservation #field-submit{
+		display: block;
+		max-width: 100%;
+		margin: 0px;
+	}
+}
+
+@media (min-width: 700px){ 
+	#form-container #reservation #field{
+		display: inline-block;
+		width: 15.1%;
+		margin: 0px 5px;
+	}
+
+	#form-container #reservation #field-submit{
+		display: inline-block;
+		width: 100%;
+		margin: 10px 5px;
+	}
+}
+
+@media (min-width: 1229px){ 
+	#form-container #reservation #field{
+		display: inline-block;
+		max-width: 12.4%;
+		margin: 0px 5px;
+	}
+
+	#form-container #reservation #field-submit{
+		display: inline-block;
+		max-width: 295px;
+		margin: 0px 5px;
+	}
+}
+
+@media (min-width: 1232px){ 
+	#form-container #reservation #field{
+		display: inline-block;
+		width: 12.45%;
+		margin: 0px 5px;
+	}
+
+	#form-container #reservation #field-submit{
+		display: inline-block;
+		max-width: 295px;
+		margin: 0px 5px;
+	}
 }
