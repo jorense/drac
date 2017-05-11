@@ -502,20 +502,6 @@
 	}
 }
 
-@media (min-width: 1229px){ 
-	#form-container #reservation #field{
-		display: inline-block;
-		max-width: 12.4%;
-		margin: 0px 5px;
-	}
-
-	#form-container #reservation #field-submit{
-		display: inline-block;
-		max-width: 295px;
-		margin: 0px 5px;
-	}
-}
-
 @media (min-width: 1232px){ 
 	#form-container #reservation #field{
 		display: inline-block;
@@ -525,7 +511,7 @@
 
 	#form-container #reservation #field-submit{
 		display: inline-block;
-		max-width: 295px;
+		width: 225px;
 		margin: 0px 5px;
 	} 
 }
