@@ -32,7 +32,7 @@ include "module.inc";
 
 <div class="full-wrapper">
     <!-- Static navbar -->
-    <div class="navbar  navbar-default">
+    <div class="navbar navbar-default">
         <div class="container-fluid">
             <div class="row">
                 <div clas="col-md-3">
@@ -94,9 +94,7 @@ include "module.inc";
                 </div>
             </div>
         </div>
-
-</div>
-
+	</div>
     <!--body content starts here-->
 </div>
 <div class="full-wrapper">
