@@ -29,10 +29,11 @@ include "module.inc";
 </head>
 <body>
 
-<div class="full-wrapper">
+<div class="mother-wrapper">
+    <div class="full-wrapper">
     <!-- Static navbar -->
     <div class="navbar  navbar-default">
-        <div class="container-fluid">
+        <div class="container-fluid-nav">
             <div class="row">
                 <div clas="col-md-3">
                     <div class="navbar-header">
@@ -99,7 +100,6 @@ include "module.inc";
     <!--body content starts here-->
 
 </div>
-
     <div class="spacer hidden-lg hidden-md hidden-sm"></div>
 <div class="full-wrapper">
     <div id="form-container" class="booking-height">
@@ -126,6 +126,8 @@ include "module.inc";
         </div>
     </div>
 </div>
+</div>
+
 
 <script src="form.js"></script>
 
