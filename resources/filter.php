@@ -117,27 +117,33 @@
 					$carlist = Array(
 						$car110,
 						$car220,
-						$car331,
-						$car431
+						$car322,
+						$car411,
+						$car511,
+						$car612,
+						$car730
 					);
 				}
 				// SUV w/ M/A Transmission
 				elseif($_GET["id"] == md5(1) && $_GET["type"] == md5(0)){
 					$carlist = Array(
-						$car110
+						$car110,
+						$car411,
+						$car511,
+						$car612
 					);
 				}
 				// Sedan w/ M/A Transmission
 				elseif($_GET["id"] == md5(2) && $_GET["type"] == md5(0)){
 					$carlist = Array(
 						$car220,
-						$car331
+						$car322
 					);
 				}
 				// Van w/ M/A Transmission
 				elseif($_GET["id"] == md5(3) && $_GET["type"] == md5(0)){
 					$carlist = Array(
-						$car431
+						$car730
 					);
 				}
 			// Type of Car ends here
@@ -148,27 +154,29 @@
 					$carlist = Array(
 						$car110,
 						$car220,
-						$car331,
-						$car431
+						$car411,
+						$car511,
+						$car730
 					);
 				}
 				// SUV w/ Manual Transmission
 				elseif($_GET["id"] == md5(1) && $_GET["type"] == md5(1)){
 					$carlist = Array(
-						$car110
+						$car110,
+						$car411,
+						$car511
 					);
 				}
 				// Sedan w/ Manual Transmission
 				elseif($_GET["id"] == md5(2) && $_GET["type"] == md5(1)){
 					$carlist = Array(
-						$car220,
-						$car331
+						$car220
 					);
 				}
 				// Van w/ Manual Transmission
 				elseif($_GET["id"] == md5(3) && $_GET["type"] == md5(1)){
 					$carlist = Array(
-						$car431
+						$car730
 					);
 				}
 			// Manual Transmission ends here
@@ -178,19 +186,24 @@
 				elseif($_GET["id"] == md5(0) && $_GET["type"] == md5(2)){
 					$carlist = Array(
 						$car110,
-						$car220
+						$car220,
+						$car322,
+						$car612,
+						$car730
 					);
 				}
 				// SUV w/ Automatic Transmission
 				elseif($_GET["id"] == md5(1) && $_GET["type"] == md5(2)){
 					$carlist = Array(
-						$car110
+						$car110,
+						$car612
 					);
 				}
 				// Sedan w/ Automatic Transmission
 				elseif($_GET["id"] == md5(2) && $_GET["type"] == md5(2)){
 					$carlist = Array(
-						$car220
+						$car220,
+						$car322
 					);
 				}
 				// Van w/ Automatic Transmission
