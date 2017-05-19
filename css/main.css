@@ -1165,8 +1165,33 @@ a:focus {
 
 .full-wrapper .container-fluid {
 	max-width: 1400px;
-	padding: 0px 40px;
 	margin: 0 auto !important;
+}
+
+.full-wrapper .container-fluid-nav {
+    max-width: 1400px;
+    padding: 0px 40px;
+    margin: 0 auto !important;
+}
+@media only screen  and (min-width : 1824px) {
+.footer-home{
+    position:absolute;
+    bottom:0;
+}
+
+.footer-home{
+    background-color: #c31e21;
+    width: 100%;
+}
+
+.footer-home p {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 14px;
+    margin: 5px;
+}
+
+/*footer styles ends here*/
 }
 
 
