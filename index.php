@@ -100,7 +100,7 @@ include "module.inc";
     <!--body content starts here-->
 </div>
 <div class="full-wrapper">
-    <div class="spacer hidden-lg"></div>
+    <div class="spacer hidden-lg hidden-md hidden-sm"></div>
     <div id="homepage-carousel" class="carousel slide" data-ride="carousel" data-interval="100000">
       <!-- Indicators -->
       <ol class="carousel-indicators">

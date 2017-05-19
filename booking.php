@@ -100,6 +100,7 @@ include "module.inc";
 
 </div>
 
+    <div class="spacer hidden-lg hidden-md hidden-sm"></div>
 <div class="full-wrapper">
     <div id="form-container" class="booking-height">
         <?php
