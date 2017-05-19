@@ -1,0 +1,1172 @@
+a, button {
+	-o-transition:.5s;
+	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+	transition:.5s;
+}
+	
+a:focus {
+	outline: 0;
+}
+
+.carousel-inner img {
+    width: 100%;
+}
+.full-wrapper {
+    width: 100%;
+    float: left;
+    height: auto;
+}
+
+.headers{
+    font-family: 'Roboto', sans-serif;
+    color: #c31e21;
+    font-weight: bold;
+    font-size: 24px;
+}
+/*navigation styles starts here*/
+
+
+.navbar-default {
+    background-color: #c31e21;
+    border-color: transparent;
+    -webkit-border-radius:0;
+    -moz-border-radius:0;
+    border-radius:0;
+}
+
+/*toggle placement on mobile starts here*/
+.float-left-toggle{
+    float: left;
+}
+
+.nav-bar-mobile {
+    float: right !important;
+    position: relative;
+    right: -6px;
+}
+
+.navbar-default .navbar-toggle{
+    border-color: transparent;
+    color: #fff;
+    float: left;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+    background-color: #fff;
+}
+
+.navbar-default .navbar-toggle .icon-bar:hover, .navbar-default .navbar-toggle .icon-bar:focus{
+    background-color: #fff;
+
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:active{
+    background-color: transparent;
+}
+
+.navmenu-default {
+    background-color: #c31e21;
+    border-color: #c31e21;
+}
+
+.navmenu-default .navmenu-nav > li > a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #fff;
+}
+
+.navbar-default .navbar-offcanvas {
+    background-color: #c31e21;
+    border-color: #c31e21;
+}
+
+.navmenu-default .navmenu-nav > li > a:hover, .navmenu-default .navmenu-nav > li > a:focus    {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #d3d431;
+}
+
+.second-nav-background{
+    background-color: #c31e21;
+}
+
+/*toggle trick ends here*/
+.navbar-default .navbar-nav>li>a {
+    font-family:'Roboto', sans-serif;
+    font-size: 1.5rem;
+    color: #fff;
+    padding: 25px;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
+    color: #d3d431;
+    -webkit-transition: all 0.2s cubic-bezier(0.78, 0.21, 0.58, 1);
+    transition: all 0.2s cubic-bezier(0.78, 0.21, 0.58, 1);
+
+}
+.navbar-brand {
+    padding: 10px 15px;
+    margin: 0px 15px;
+}
+
+.navbar-brand img{
+    position: relative;
+}
+
+.selected{
+    color: #d3d431 !important;
+}
+.navbar{
+    margin-bottom:0 !important ;
+}
+
+.book-now  {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    border: 1px solid #fff;
+    color: #fff;
+    width: 100px;
+    text-align: center;
+    margin-top: 10px;
+    font-size:17px;
+}
+
+.book-now-link:hover, .book-now-link:focus, .book-now-link:active{
+    text-decoration: none;
+}
+
+.right-nav-item{
+    color: #fff;
+    font-size: 20px;
+}
+
+
+.white-item, .white-item:hover, .white-item:focus, .white-item:active{
+    color: #fff !important;
+    text-decoration: none;
+}
+
+.navbar-default .navbar-collapse {
+    border-color: transparent;
+}
+
+.navbar-collapse {
+    padding-right: 15px;
+    padding-left: 15px;
+    overflow-x: visible;
+    -webkit-overflow-scrolling: touch;
+     border-top: transparent;
+     -webkit-box-shadow: none;
+     box-shadow: none;
+}
+/*navigation styles ends here*/
+
+/*footer style starts here*/
+.footer{
+    background-color: #c31e21;
+}
+
+.footer p {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 14px;
+    margin: 5px;
+}
+
+/*footer styles ends here*/
+
+/*about us styles starts here*/
+.about-us{
+    background-image: url("../images/background-about-us-choose-your-ride.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    min-height: 366px;
+    background-position: center center;
+}
+.play-button{
+    position: relative;
+    top: 80px;
+    left: 0;
+}
+
+.about-us-2{
+    background-image: url("../images/background-about-us-shaking-hands.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    min-height: 455px;
+    background-position: center center;
+}
+.about-us-3{
+    background-image: url("../images/background-about-us-requirements.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    min-height: 455px;
+    background-position: center center;
+}
+.intro-about{
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #585858;
+
+}
+
+.intro-products-services{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #585858;
+    padding: 15px;
+    text-align: center;
+}
+
+.key-highlights{
+    background-image: url("../images/background-products-services.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    min-height: 299px;
+    background-position: center center;
+}
+.products-list {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size:14px;
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    display: table;
+}
+
+.products-list li {
+    display: table-row;
+}
+.products-list li:before{
+    display: table-cell;
+    content: "\f111";
+    font-family: FontAwesome;
+    color: #fff;
+    padding-right: 14px;
+    font-size: 8px;
+}
+
+
+.dfms-intro{
+    max-width: 800px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+.dfms-header{
+    font-weight:bold;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.dfms-list{
+    color: #585858;
+    font-family: 'Roboto', sans-serif;
+    font-size:14px;
+    list-style: none;
+    padding: 0;
+    display: table;
+
+}
+
+.dfms-list li {
+    padding: 5px;
+}
+
+/*carousel styles starts here*/
+.carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 2px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #000 \9;
+    background-color: rgba(28,21,21, .5);
+    border: transparent;
+    border-radius: 13px;
+}
+
+.carousel-indicators .active {
+    width: 10px;
+    height: 10px;
+    margin: 2px;
+    background-color: #6e6360;
+}
+
+.carousel-caption{
+    top: 153px;
+}
+
+.carousel-btn{
+    background-color: #a21b1e;
+
+}
+/*carousel styles ends here*/
+
+.dfms-list li:before{
+    content: "\f111";
+    font-family: FontAwesome;
+    color: #585858;
+    padding-right: 5px;
+    font-size: 8px;
+}
+.partnering{
+    color: #fff;
+    font-family:'Roboto';
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.h2-header{
+    color: #d3d431;
+    font-family:'Roboto';
+    font-size: 24px;
+    font-weight:bold;
+}
+
+.about-us-sub-par{
+    font-family:'Roboto';
+    color: #fff;
+}
+.shared-values-header{
+    font-family:'Roboto';
+    font-weight: bold;
+    text-align: center;
+    color: #585858;
+}
+.shared-values-intro{
+    font-family:'Roboto';
+    text-align: center;
+    color: #585858;
+    font-size: 14px;
+}
+.modal-header{
+    border-bottom: none;
+}
+
+.modal-footer{
+    border-top: none;
+}
+
+.modal-content{
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    background-color: transparent;
+    border: none;
+}
+
+.requirements{
+    color: #fff;
+    font-family:'Roboto';
+    font-weight:bold;
+
+}
+
+.requirements-list{
+    list-style-type: none;
+}
+
+.requirements-list li{
+    color: #fff;
+    text-align: inherit;
+}
+
+.fa-check-square-o{
+    color: #d3d431;
+    font-size: 1.5em;
+    font-weight:bold;
+    padding: 10px;
+}
+/*about us styles ends here*/
+
+/*promo styles starts here*/
+.promo-container {
+    border-bottom: 1px solid #a8a4a4;
+    border-left: 1px solid #a8a4a4;
+    border-right: 1px solid #a8a4a4;
+    padding: 20px;
+}
+.promo-inside-header {
+    color: #585858;
+    font-family: 'Roboto';
+    text-align: center;
+    font-weight:bold;
+    margin: 0;
+}
+.promo-inside-text{
+    color: #585858;
+    font-family: 'Roboto';
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+
+.promo-btn-learn-more{
+    background-color: #c31e21;
+    -webkit-border-radius:0;
+    -moz-border-radius:0;
+    border-radius:0;
+    color: #fff;
+    border-color: #c31e21;
+    font-weight:bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.promo-btn-learn-more:hover, .promo-btn-learn-more:focus {
+    color: #fff;
+}
+
+.promo-box {
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-bottom: 20px;
+}
+.promo-box img {
+    width: 100%;
+    height: auto;
+}
+/*promo styles ends here*/
+
+/*contact us styles starts here*/
+.contact-us-header{
+    color: #585858;
+    font-family: 'Roboto', sans-serif;
+    font-weight:bold;
+}
+
+.contact-info {
+    color: #585858;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1em;
+}
+.contact-email {
+    color: #585858;
+    text-decoration: none;
+}
+.contact-email:hover, contact-email:focus {
+    color: #d3d431;
+    text-decoration: none;
+    -webkit-transition: all 0.2s cubic-bezier(0.78, 0.21, 0.58, 1);
+    transition: all 0.2s cubic-bezier(0.78, 0.21, 0.58, 1);
+}
+
+.hide {
+    display: none;
+}
+
+.loader {
+    border: 5px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 5px solid #3498db;
+    width: 30px;
+    height: 30px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+    position: absolute;
+    left: 46%;
+    top: 45%;
+    z-index: 5;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.map-container {
+    position: relative;
+    z-index: 6;
+
+}
+
+.map-container iframe{
+    width: 100%;
+}
+.fake-background {
+    width: 100%;
+    float: left;
+    height: auto;
+    background-color: #eaeaea;
+}
+
+
+.contact-us-dropdown .custom-select {
+    background: #fff url(../form-image/form-dropdown.svg) no-repeat right 20px center;
+    background-size: 25px 13px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    border: 1px solid #c6c3c3;
+    border-radius: 1px;
+    color: #7c7575;
+}
+
+.form-container {
+    max-width: 1300px;
+    min-height: 20px;
+    padding: 0 !important;
+    margin: 0px auto;
+}
+
+#form-container .form {
+    max-width: 980px;
+    margin: 0px auto;
+    margin-bottom: 10px;
+    clear: both;
+    padding: 0 !important;
+}
+
+/*contact us styles ends here*/
+/*five column starts here*/
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+
+.col-xs-15 {
+    width: 20%;
+    float: left;
+}
+
+@media (min-width: 768px) {
+    .col-sm-15 {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-15 {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-15 {
+        width: 20%;
+        float: left;
+    }
+}
+/*five column ends here*/
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px){
+    .footer-item-two{
+        text-align: center;
+    }
+    .footer-item-one {
+        text-align: center;
+    }
+    /*when on mobile, toggle background full screen */
+    .navmenu{
+        width: 320px;
+    }
+    .book-now {
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        border: 1px solid #fff;
+        color: #fff;
+        width: 87px;
+        text-align: center;
+        margin-top: 10px;
+        font-size: 11px;
+    }
+
+    .small-white-item, .small-white-item:hover, .small-white-item:focus, .small-white-item:active{
+        font-size: 9px;
+        font-family: 'Roboto';
+        font-weight:bold;
+        color: #fff;
+        text-decoration: none;
+    }
+
+
+    .navbar-nav{
+        padding: 20px;
+    }
+    .navbar-default .navbar-offcanvas{
+        width: 360px
+    }
+    .nav-bar-mobile {
+        float: right !important;
+        position: relative;
+        right: 31px;
+    }
+    .about-us-3{
+        background-image: url("../images/background-about-us-requirements-mobile.jpg");
+        background-repeat: no-repeat;
+        width: 100%;
+        height: auto;
+        background-position: center center;
+        background-size: cover;
+    }
+    .about-us{
+        background-image: url("../images/background-about-us-choose-your-ride-mobile.jpg");
+        background-repeat: no-repeat;
+        width: 100%;
+        height: auto;
+        background-position: center center;
+        background-size: cover;
+    }
+    .key-highlights{
+        background-image: url("../images/background-products-services-mobile.jpg");
+        background-repeat: no-repeat;
+        width: 100%;
+        height: auto;
+        background-position: center center;
+        background-size: cover;
+    }
+    .form-control-1 {
+        width: 100%;
+    }
+    .booking-height{
+        height: 89vh;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px){
+    .footer-item-two{
+        text-align: center;
+    }
+    .footer-item-one {
+        text-align: center;
+    }
+    /*when on mobile, toggle background full screen */
+    .navmenu{
+        width: 360px;
+    }
+    .book-now {
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        border: 1px solid #fff;
+        color: #fff;
+        width: 87px;
+        text-align: center;
+        margin-top: 10px;
+        font-size: 11px;
+    }
+    .navbar-nav{
+        padding: 20px;
+    }
+    .navbar-default .navbar-offcanvas{
+        width: 360px
+    }
+    .nav-bar-mobile {
+        float: right !important;
+        position: relative;
+        right: -6px;
+    }
+    .list-inline {
+        padding-left: 0;
+        margin-left: -5px;
+        list-style: none;
+        display: inline-block;
+    }
+    .right-nav-item {
+        color: #fff;
+        font-size: 13px;
+    }
+    .about-us-2{
+        background-image: url("../images/background-about-us-shaking-hands-mobile.jpg");
+        background-repeat: no-repeat;
+        width: 100%;
+        height: auto;
+        background-position: center center;
+        background-size: cover;
+    }
+    .about-us-3{
+        background-image: url("../images/background-about-us-requirements-mobile.jpg");
+        background-repeat: no-repeat;
+        width: 100%;
+        height: auto;
+        background-position: center center;
+        background-size: cover;
+    }
+    .requirements-list li {
+        color: #fff;
+        text-align: inherit;
+    }
+    .about-us{
+        background-image: url("../images/background-about-us-choose-your-ride-mobile.jpg");
+        background-repeat: no-repeat;
+        width: 100%;
+        height: auto;
+        background-position: center center;
+        background-size: cover;
+    }
+    .key-highlights{
+        background-image: url("../images/background-products-services-mobile.jpg");
+        background-repeat: no-repeat;
+        width: 100%;
+        height: auto;
+        background-position: center center;
+        background-size: cover;
+    }
+    .form-control-1 {
+        width: 100%;
+    }
+    .booking-height{
+        height: 160vh;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px){
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px){
+    .footer-item-two{
+        text-align: right;
+    }
+    .footer-item-one {
+        text-align: left;
+    }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+   /*carousel style starts here*/
+
+    .carousel-control.left,  .carousel-control.right {
+        background-image: none;
+    }
+
+    .carousel-control {
+        width: 5%;
+        top: -15%;
+    }
+    /*carousel style ends here*/
+
+
+    .footer-item-two {
+        text-align: right;
+    }
+
+    .footer-item-one {
+        text-align: left;
+    }
+
+    .book-now {
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        border: 1px solid #fff;
+        color: #fff;
+        width: 100px;
+        text-align: center;
+        margin-top: 10px;
+        font-size: 17px;
+    }
+
+    .book-now-link:hover, .book-now-link:focus, .book-now-link:active {
+        text-decoration: none;
+    }
+
+    .navbar-nav {
+        padding: 0;
+    }
+
+    .navbar-default .navbar-offcanvas {
+        width: auto;
+    }
+
+    .right-nav-item {
+        color: #fff;
+        font-size: 20px;
+        padding-top: 13px;
+    }
+
+    .about-us-2 {
+        background-image: url("../images/background-about-us-shaking-hands.jpg");
+        background-repeat: no-repeat;
+        width: 100%;
+        height: auto;
+        min-height: 455px;
+        background-position: center center;
+    }
+
+    .about-us-3 {
+        background-image: url("../images/background-about-us-requirements.jpg");
+        background-repeat: no-repeat;
+        width: 100%;
+        height: auto;
+        min-height: 455px;
+        background-position: center center;
+    }
+
+    .requirements-list li {
+        color: #fff;
+        text-align: inherit;
+    }
+
+    .key-highlights {
+        background-image: url("../images/background-products-services.jpg");
+        background-repeat: no-repeat;
+        width: 100%;
+        height: auto;
+        min-height: 299px;
+        background-position: center center;
+    }
+
+    .about-us {
+        background-image: url("../images/background-about-us-choose-your-ride.jpg");
+        background-repeat: no-repeat;
+        width: 100%;
+        height: auto;
+        min-height: 366px;
+        background-position: center center;
+    }
+    .form-control-1 {
+        width: 62%;
+    }
+    .form-container .form {
+        max-width: 980px;
+        margin: 0px auto;
+        margin-bottom: 10px;
+        clear: both;
+    }
+    .form-container .form {
+        max-width: 980px;
+        margin: 0px auto;
+        margin-bottom: 10px;
+        clear: both;
+        padding: 0;
+    }
+
+    .booking-height{
+        height: 86vh;
+    }
+}
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px){
+    /*carousel style starts here*/
+
+    .carousel-control.left,  .carousel-control.right {
+        background-image: none;
+    }
+
+    .carousel-control {
+        width: 5%;
+        top: -15%;
+    }
+    /*carousel style ends here*/
+
+
+    .footer-item-two{
+        text-align: right;
+    }
+    .footer-item-one{
+        text-align: left;
+    }
+    .book-now  {
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        border: 1px solid #fff;
+        color: #fff;
+        width: 100px;
+        text-align: center;
+        margin-top: 10px;
+        font-size:17px;
+    }
+
+    .book-now-link:hover, .book-now-link:focus, .book-now-link:active{
+        text-decoration: none;
+    }
+    .navbar-nav{
+        padding: 0;
+    }
+    .navbar-default .navbar-offcanvas{
+        width: auto;
+    }
+
+    .right-nav-item {
+        color: #fff;
+        font-size: 20px;
+        padding-top: 7px;
+    }
+    .about-us-2{
+        background-image: url("../images/background-about-us-shaking-hands.jpg");
+        background-repeat: no-repeat;
+        width: 100%;
+        height: auto;
+        min-height: 455px;
+        background-position: center center;
+    }
+    .about-us-3{
+        background-image: url("../images/background-about-us-requirements.jpg");
+        background-repeat: no-repeat;
+        width: 100%;
+        height: auto;
+        min-height: 455px;
+        background-position: center center;
+    }
+    .requirements-list li{
+        color: #fff;
+        text-align: inherit;
+    }
+    .key-highlights{
+        background-image: url("../images/background-products-services.jpg");
+        background-repeat: no-repeat;
+        width: 100%;
+        height: auto;
+        min-height: 299px;
+        background-position: center center;
+    }
+    .about-us{
+        background-image: url("../images/background-about-us-choose-your-ride.jpg");
+        background-repeat: no-repeat;
+        width: 100%;
+        height: auto;
+        min-height: 366px;
+        background-position: center center;
+    }
+    .form-control-1 {
+        width: 62%;
+    }
+    #form-container #form {
+        max-width: 980px;
+        margin: 0px auto;
+        margin-bottom: 10px;
+        clear: both;
+        padding: 0;
+    }
+    .booking-height{
+        height: 86vh;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px){
+    .footer-item-two{
+        text-align: right;
+    }
+    .footer-item-one{
+        text-align: left;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px){
+    .footer-item-two{
+        text-align: right;
+    }
+    .footer-item-one{
+        text-align: left;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px){
+    .footer-item-two{
+        text-align: center;
+    }
+    .footer-item-one{
+        text-align: center;
+    }
+    /*when on mobile, toggle background full screen */
+    .navmenu{
+        width: 360px;
+    }
+    .book-now {
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        border: 1px solid #fff;
+        color: #fff;
+        width: 87px;
+        text-align: center;
+        margin-top: 10px;
+        font-size: 11px;
+    }
+    .navbar-nav{
+        padding: 20px;
+    }
+    .navbar-default .navbar-offcanvas{
+        width: 360px
+    }
+    .nav-bar-mobile {
+        float: right !important;
+        position: relative;
+        right: -6px;
+    }
+    .list-inline {
+        padding-left: 0;
+        margin-left: -5px;
+        list-style: none;
+        display: inline-block;
+    }
+    .right-nav-item {
+        color: #fff;
+        font-size: 13px;
+        padding-left: 128px;
+    }
+<<<<<<< HEAD
+
+=======
+    .navbar-brand img {
+    position: relative;
+    top: 3px;
+    left: 21px;
+    }
+>>>>>>> origin
+    .about-us-2{
+        background-image: url("../images/background-about-us-shaking-hands-mobile.jpg");
+        background-repeat: no-repeat;
+        width: 100%;
+        height: auto;
+        background-position: center center;
+        background-size: cover;
+    }
+    .about-us-3{
+        background-image: url("../images/background-about-us-requirements-mobile.jpg");
+        background-repeat: no-repeat;
+        width: 100%;
+        height: auto;
+        background-position: center center;
+        background-size: cover;
+    }
+    .requirements-list li{
+        color: #fff;
+        text-align: inherit;
+    }
+    .about-us{
+        background-image: url("../images/background-about-us-choose-your-ride-mobile.jpg");
+        background-repeat: no-repeat;
+        width: 100%;
+        height: auto;
+        background-position: center center;
+        background-size: cover;
+    }
+    .key-highlights{
+        background-image: url("../images/background-products-services-mobile.jpg");
+        background-repeat: no-repeat;
+        width: 100%;
+        height: auto;
+        background-position: center center;
+        background-size: cover;
+    }
+    .form-control-1 {
+        width: 100%;
+    }
+    .booking-height{
+        height: 121vh;
+    }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px){
+    .footer-item-two{
+        text-align: center;
+    }
+    .footer-item-one{
+        text-align: center;
+    }
+    /*when on mobile, toggle background full screen */
+    .navmenu{
+        width: 320px;
+    }
+    .book-now {
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        border: 1px solid #fff;
+        color: #fff;
+        width: 87px;
+        text-align: center;
+        margin-top: 10px;
+        font-size: 11px;
+    }
+    .small-white-item, .small-white-item:hover, .small-white-item:focus, .small-white-item:active{
+        font-size: 9px;
+        font-family: 'Roboto';
+        font-weight:bold;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .navbar-nav{
+        padding: 20px;
+    }
+    .navbar-default .navbar-offcanvas{
+        width: 360px
+    }
+    .nav-bar-mobile {
+        float: right !important;
+        position: relative;
+        right: 31px;
+    }
+    .about-us-2{
+        background-image: url("../images/background-about-us-shaking-hands-mobile.jpg");
+        background-repeat: no-repeat;
+        width: 100%;
+        height: auto;
+        background-position: center center;
+        background-size: cover;
+    }
+    .about-us-3{
+        background-image: url("../images/background-about-us-requirements-mobile.jpg");
+        background-repeat: no-repeat;
+        width: 100%;
+        height: auto;
+        background-position: center center;
+        background-size: cover;
+    }
+    .requirements-list li{
+        color: #fff;
+        text-align: inherit;
+    }
+    .about-us{
+        background-image: url("../images/background-about-us-choose-your-ride-mobile.jpg");
+        background-repeat: no-repeat;
+        width: 100%;
+        height: auto;
+        background-position: center center;
+        background-size: cover;
+    }
+    .key-highlights{
+        background-image: url("../images/background-products-services-mobile.jpg");
+        background-repeat: no-repeat;
+        width: 100%;
+        height: auto;
+        background-position: center center;
+        background-size: cover;
+    }
+    .form-control-1 {
+        width: 100%;
+    }
+    .booking-height{
+        height: 160vh;
+    }
+}
+
+.full-wrapper .container-fluid {
+	max-width: 1400px;
+	padding: 0px 40px;
+	margin: 0 auto !important;
+}
+
+
