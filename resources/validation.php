@@ -10,57 +10,57 @@
 				case md5(0):
 					$_SESSION["step"] = md5(1);
 					$_SESSION["validate"] = 0;
-					header("location:index.php");
+					header("location:booking.php");
 					// if(isset($_SESSION["validate"]) && $_SESSION["validate"] == 1){
 						// $_SESSION["step"] = md5(1);
 						$_SESSION["validate"] = 0;
-						header("location:index.php");
+						// header("location:booking.php");
 					// }
 					// else {
 						// $_SESSION["validate"] = 1;
-						// header("location:index.php");
+						// header("location:booking.php");
 					// }
 				break;
 				case md5(1):
 					$_SESSION["step"] = md5(2);
 					$_SESSION["validate"] = 0;
-					header("location:index.php");
+					header("location:booking.php");
 					// if(isset($_SESSION["validate"]) && $_SESSION["validate"] == 1){
 						// $_SESSION["step"] = md5(2);
 						// $_SESSION["validate"] = 0;
-						// header("location:index.php");
+						// header("location:booking.php");
 					// }
 					// else {
 						// $_SESSION["validate"] = 1;
-						// header("location:index.php");
+						// header("location:booking.php");
 					// }
 				break;
 				case md5(2):
 					$_SESSION["step"] = md5(3);
 					$_SESSION["validate"] = 0;
-					header("location:index.php");
+					header("location:booking.php");
 					// if(isset($_SESSION["validate"]) && $_SESSION["validate"] == 1){
 						// $_SESSION["step"] = md5(3);
 						// $_SESSION["validate"] = 0;
-						// header("location:index.php");
+						// header("location:booking.php");
 					// }
 					// else {
 						// $_SESSION["validate"] = 1;
-						// header("location:index.php");
+						// header("location:booking.php");
 					// }
 				break;
 				case md5(3):
 					$_SESSION["step"] = md5(4);
 					$_SESSION["validate"] = 0;
-					header("location:index.php");
+					header("location:booking.php");
 					// if(isset($_SESSION["validate"]) && $_SESSION["validate"] == 1){
 						// $_SESSION["step"] = md5(4);
 						// $_SESSION["validate"] = 0;
-						// header("location:index.php");
+						// header("location:booking.php");
 					// }
 					// else {
 						// $_SESSION["validate"] = 1;
-						// header("location:index.php");
+						// header("location:booking.php");
 					// }
 				break;
 				case md5(4):

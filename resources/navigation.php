@@ -21,7 +21,7 @@
 							$navigation .="<h1 id='".$tab_active."'>2 CHOOSE YOUR RIDE</h1>";
 						break;
 						case 2:
-							$navigation .="<h1 id='".$tab_active."'>3 YOUR INFORMAITON</h1>";
+							$navigation .="<h1 id='".$tab_active."'>3 YOUR INFORMATION</h1>";
 						break;
 						case 3:
 							$navigation .="<h1 id='".$tab_active."'>4 CONFIRMATION</h1>";
@@ -40,7 +40,7 @@
 						$navigation .="<h1 id='active'>2 CHOOSE YOUR RIDE</h1>";
 					break;
 					case 2:
-						$navigation .="<h1 id='active'>3 YOUR INFORMAITON</h1>";
+						$navigation .="<h1 id='active'>3 YOUR INFORMATION</h1>";
 					break;
 					case 3:
 						$navigation .="<h1 id='active'>4 CONFIRMATION</h1>";
