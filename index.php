@@ -28,9 +28,7 @@ include "module.inc";
     <link rel="stylesheet" href="form.css">
 	</head>
 	<body>
-		<div class="mother-wrapper">
-			<div class="full-wrapper">
-				<!-- Static navbar -->
+<div class="mother-wrapper">
     <div class="full-wrapper">
         <!-- Static navbar -->
         <div class="navbar  navbar-default">
@@ -77,13 +75,20 @@ include "module.inc";
                                     </a>
                                 </li>
                             <li class="hidden-md hidden-sm hidden-xs">
-                                <a href="booking.php" class="book-now-link"> <p class="book-now">BOOK NOW </p></a></li>
+                                <a href="booking.php" class="book-now-link"> <p class="book-now" style="padding-right: 0px;">BOOK NOW </p></a></li>
                             <li>                            
                             <li class="hidden-md hidden-sm hidden-xs">
                                  <a href="https://www.facebook.com/DiamondRentaCar/" target="_blank" class="white-item" style="    padding-left: 0px; padding-top: 21px;"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
                             </ul>
-						</div>
-					</div>
+
+                        </div><!--/.nav-collapse -->
+                    <ul class="list-inline right-nav-item hidden-lg">
+                        <li>
+                            <a href="booking.php" class="book-now-link"> <p class="book-now">BOOK NOW </p></a></li>
+                        <li>
+
+                        <li><a href="https://www.facebook.com/DiamondRentaCar/" target="_blank" class="white-item"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+                    </ul>
             </div>
         </div>
     </div>
