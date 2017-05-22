@@ -6,7 +6,7 @@ include "module.inc";
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Home | Diamond Rent-a-Car</title>
+    <title>Booking | Diamond Rent-a-Car</title>
     <link rel="icon" type="image/png" href="favicon.ico" />
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
