@@ -174,7 +174,7 @@ html, body { height: 100%; }
     bottom: 0;
 }
 
-.footer p {
+.footer-index p {
     font-family: 'Roboto', sans-serif;
     color: #fff;
     font-size: 14px;
@@ -194,7 +194,7 @@ html, body { height: 100%; }
     font-size: 14px;
     margin: 5px;
     clear: both;
-    overflow: hidden
+    overflow: hidden;
 }
 
 /*footer styles ends here*/
@@ -1092,10 +1092,10 @@ html, body { height: 100%; }
         padding-left: 279px;
     }
     .footer-item-two{
-        text-align: right;
+        text-align: center;
     }
     .footer-item-one{
-        text-align: left;
+        text-align: center;
     }
 }
 
