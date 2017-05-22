@@ -35,7 +35,7 @@ include "module.inc";
     <div class="navbar  navbar-default">
         <div class="container-fluid-nav">
             <div class="row">
-                <div clas="col-md-3">
+                <div clas="col-md-3 col-lg-3">
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".navbar-offcanvas" data-canvas="body">
                             <span class="icon-bar"></span>
@@ -46,7 +46,7 @@ include "module.inc";
                     </div>
                 </div>
 
-                <div class="col-md-7">
+                <div class="col-md-7 col-lg-7">
                     <div class="navbar-offcanvas navmenu-fixed-left offcanvas">
                         <div class="navbar-header">
                             <button type="button" class="navbar-toggle nav-bar-mobile" data-toggle="offcanvas" data-target=".navbar-offcanvas" data-canvas="body">
@@ -83,7 +83,7 @@ include "module.inc";
                         </ul>
                     </div><!--/.nav-collapse -->
                 </div>
-                <div class="col-md-2">
+                <div class="col-md-2 col-lg-2">
                     <ul class="list-inline right-nav-item">
                         <li>
                             <a href="booking.php" class="book-now-link"> <p class="book-now">BOOK NOW </p></a></li>
@@ -114,7 +114,9 @@ include "module.inc";
         <div class="item active">
           <img src="images/homepage-carousel-1.jpg" alt="Los Angeles">
         </div>
-
+        <div class="item">
+          <img src="images/homepage-carousel-2.jpg" alt="New York">
+        </div>
         <div class="item">
           <img src="images/homepage-carousel-3.jpg" alt="New York">
         </div>
