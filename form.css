@@ -14,8 +14,8 @@
 }
 
 #form-container #steps {
-	margin-bottom: 30px;
-}
+	margin-bottom: 30px;}
+
 
 #form-container #steps a{
 	font-family: Roboto;
@@ -245,7 +245,7 @@
 	min-height: 50px;
 	font-family: Lato;
 	font-weight: 400;
-	font-size: 14px;
+	font-size: 11px;
 	line-height: 18px;
 	color: #676767;
 	background: #fff url("form-image/form-date.svg") no-repeat right 20px center;
