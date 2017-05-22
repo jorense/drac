@@ -32,7 +32,7 @@ include "module.inc";
 <div class="mother-wrapper">
     <div class="full-wrapper">
     <!-- Static navbar -->
-    <div class="navbar  navbar-default">
+     <div class="navbar  navbar-default">
         <div class="container-fluid-nav">
             <div class="row">
                     <div class="navbar-header">
@@ -87,17 +87,21 @@ include "module.inc";
             </div>
         </div>
 </div>
-    <div class="spacer hidden-lg hidden-md hidden-sm"></div>
 <div class="full-wrapper">
-    <div id="form-container" class="booking-height">
-        <?php
-        echo "$navigation";
-        ?>
-        <?php
-        echo "$form";
-        ?>
-    </div>
-    <!--body content ends here-->
+<div class="spacer hidden-lg hidden-md hidden-sm"></div>
+</div>
+        <div class="full-wrapper">
+            <div id="form-container" class="booking-height">
+                <?php
+                echo "$navigation";
+                ?>
+                <?php
+                echo "$form";
+                ?>
+            </div>
+            <!--body content ends here-->
+        </div>
+
 </div>
 <div class="full-wrapper">
     <div class="footer-home footer-index">
@@ -113,8 +117,6 @@ include "module.inc";
         </div>
     </div>
 </div>
-</div>
-
 
 <script src="form.js"></script>
 

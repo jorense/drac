@@ -75,12 +75,11 @@ include "module.inc";
                                         Contact Us
                                     </a>
                                 </li>
-
-                            <li>
+                            <li class="hidden-md hidden-sm hidden-xs">
                                 <a href="booking.php" class="book-now-link"> <p class="book-now" style="padding-right: 0px;">BOOK NOW </p></a></li>
-                            <li>
-
-                            <li><a href="https://www.facebook.com/DiamondRentaCar/" target="_blank" class="white-item" style="    padding-left: 0px; padding-top: 21px;"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+                            <li>                            
+                            <li class="hidden-md hidden-sm hidden-xs">
+                                 <a href="https://www.facebook.com/DiamondRentaCar/" target="_blank" class="white-item" style="    padding-left: 0px; padding-top: 21px;"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
                             </ul>
 
                         </div><!--/.nav-collapse -->
@@ -91,12 +90,10 @@ include "module.inc";
 
                         <li><a href="https://www.facebook.com/DiamondRentaCar/" target="_blank" class="white-item"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
                     </ul>
-                </div>
             </div>
+        </div>
     </div>
-
     <!--body content starts here-->
-</div>
 <div class="full-wrapper">
     <div class="spacer hidden-lg hidden-md hidden-sm"></div>
     <div id="homepage-carousel" class="carousel slide" data-ride="carousel" data-interval="100000">
