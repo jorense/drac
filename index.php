@@ -4,8 +4,8 @@ include "module.inc";
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html>
+	<head>
     <title>Home | Diamond Rent-a-Car</title>
     <link rel="icon" type="image/png" href="favicon.ico" />
     <meta charset="utf-8">
@@ -26,11 +26,11 @@ include "module.inc";
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/css/bootstrap-datepicker.css">
 
     <link rel="stylesheet" href="form.css">
+	</head>
+	<body>
+	<div class="mother-wrapper">
 
-</head>
-<body>
-<div class="mother-wrapper">
-<div class="full-wrapper">
+		<div class="full-wrapper">
     <!-- Static navbar -->
     <div class="navbar  navbar-default">
         <div class="container-fluid-nav">
@@ -96,9 +96,6 @@ include "module.inc";
         </div>
 
 </div>
-
-    <!--body content starts here-->
-</div>
 <div class="full-wrapper">
     <div class="spacer hidden-lg hidden-md hidden-sm"></div>
     <div id="homepage-carousel" class="carousel slide" data-ride="carousel" data-interval="100000">
@@ -133,14 +130,19 @@ include "module.inc";
       </a>
     </div>
 </div>
-<div class="full-wrapper">
-    <div id="form-container">
-        <?php
-        echo "$reservation";
-        ?>
-    </div>
-    <!--body content ends here-->
+
+    <!--body content starts here-->
 </div>
+<div class="full-wrapper">
+
+		<div id="form-container">
+			<?php
+				echo "$reservation";
+			?>
+		</div>
+		</div>
+		</div>
+		<script src="form.js"></script>
 <div class="full-wrapper">
     <div class="footer-home footer-index">
         <div class="container-fluid">
@@ -155,7 +157,5 @@ include "module.inc";
         </div>
     </div>
 </div>
-</div>
-
-</body>
+	</body>
 </html>
