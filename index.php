@@ -107,7 +107,6 @@ include "module.inc";
         <li data-target="#homepage-carousel" data-slide-to="0" class="active"></li>
         <li data-target="#homepage-carousel" data-slide-to="1"></li>
         <li data-target="#homepage-carousel" data-slide-to="2"></li>
-        <li data-target="#homepage-carousel" data-slide-to="3"></li>
       </ol>
 
       <!-- Wrapper for slides -->
@@ -117,14 +116,10 @@ include "module.inc";
         </div>
 
         <div class="item">
-          <img src="images/background-full-home.jpg" alt="Chicago">
-        </div>
-
-        <div class="item">
           <img src="images/homepage-carousel-3.jpg" alt="New York">
         </div>
       </div>
-
+    
       <!-- Left and right controls -->
       <a class="left carousel-control" href="#homepage-carousel" data-slide="prev">
         <span class="glyphicon glyphicon-chevron-left"></span>
@@ -145,7 +140,7 @@ include "module.inc";
     <!--body content ends here-->
 </div>
 <div class="full-wrapper">
-    <div class="footer-home footer">
+    <div class="footer-home footer-index">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-6">
@@ -159,9 +154,6 @@ include "module.inc";
     </div>
 </div>
 </div>
-
-<script src="form.js"></script>
-
 
 </body>
 </html>
