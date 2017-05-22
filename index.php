@@ -114,7 +114,9 @@ include "module.inc";
         <div class="item active">
           <img src="images/homepage-carousel-1.jpg" alt="Los Angeles">
         </div>
-
+        <div class="item">
+          <img src="images/homepage-carousel-2.jpg" alt="New York">
+        </div>
         <div class="item">
           <img src="images/homepage-carousel-3.jpg" alt="New York">
         </div>
