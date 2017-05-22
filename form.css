@@ -45,6 +45,11 @@
 		display: inherit;
 	}
 	
+	#form-container form #back_btn .btn{
+		display: block;
+		width: 100%;
+	}
+	
 	#form-container form #buttons .btn{
 		display: block;
 		width: 100%;
@@ -80,6 +85,11 @@
 	}
 	
 	#form-container form #buttons .btn{
+		display: inline-block;
+		width: auto;
+	}
+	
+	#form-container form #back_btn .btn{
 		display: inline-block;
 		width: auto;
 	}
@@ -191,6 +201,28 @@
 	color: #ffffff;
 	padding: 10px 20px;
 	border-radius: 0px;
+}
+
+#form-container form #back_btn{
+	text-align: right;
+	padding: 10px 0px; 
+}
+
+#form-container form #back_btn .btn:hover{
+	background-color: #dd0000;
+	color: #ffffff;
+}
+
+#form-container form #back_btn .btn{
+	background-color: #ffffff;
+	font-family: Roboto;
+	font-weight: 500;
+	font-size: 10px;
+	line-height: 14px;
+	color: #dd0000;
+	padding: 5px 10px;
+	border-radius: 0px;
+	border: 1px solid #dd0000;
 }
 
 #form-container form #buttons .btn:hover{
@@ -491,7 +523,7 @@
 @media (min-width: 768px){ 
 	#form-container #reservation #field{
 		display: inline-block;
-		width: 15.1%;
+		width: 12.5%;
 		margin: 0px 5px;
 	}
 
@@ -505,7 +537,7 @@
 @media (min-width: 1232px){ 
 	#form-container #reservation #field{
 		display: inline-block;
-		width: 12.45%;
+		width: 10.5%;
 		margin: 0px 5px;
 	}
 

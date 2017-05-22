@@ -135,6 +135,16 @@
 				<div id='filter-result'>
 					".implode($carlist)."
 				</div>
+				<div id='form'>
+					<div id='filter'>
+						<form action='".$_SERVER['PHP_SELF']."' method='post'>
+							<div id='buttons'>
+								<input type='hidden' name='step' value='back_0'>
+								<input type='submit' class='btn' name='submit' value='BACK'>
+							</div>
+						</form>
+					</div>
+				</div>
 			";
 		break;
 		case md5(2):
@@ -179,6 +189,12 @@
 						<div class='form-group' id='buttons'>
 							<input type='hidden' name='step' value='3'>
 							<input type='submit' class='btn' name='submit' value='SUBMIT'>
+						</div>
+					</form>
+					<form action='".$_SERVER['PHP_SELF']."' method='post'>
+						<div class='form-group' id='back_btn' class='back'>
+							<input type='hidden' name='step' value='back_1'>
+							<input type='submit' class='btn' name='submit' value='GO BACK'>
 						</div>
 					</form>
 				</div>
@@ -263,6 +279,14 @@
 						</div>
 					</form>
 				</div>
+				<div id='form'>
+					<form action='".$_SERVER['PHP_SELF']."' method='post'>
+						<div class='form-group' id='back_btn' class='back'>
+							<input type='hidden' name='step' value='back_1'>
+							<input type='submit' class='btn' name='submit' value='GO BACK'>
+						</div>
+					</form>
+				</div>
 			";
 		break;
 		case md5(4):
@@ -292,6 +316,11 @@
 						<div id='field'>
 							<div class='form-group'>
 								<input type='text' class='form-control' placeholder='First Name' name='firstname'>
+							</div>
+						</div>
+						<div id='field'>
+							<div class='form-group'>
+								<input type='text' class='form-control' placeholder='Last Name' name='firstname'>
 							</div>
 						</div>
 						<div id='field'>
