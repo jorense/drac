@@ -1356,6 +1356,7 @@ html, body { height: 100%; }
 	.footer-home{
 		position:relative;
 		bottom:0;
+        color: #fff;
 	}
 }
 
@@ -1363,6 +1364,7 @@ html, body { height: 100%; }
 .footer-home{
     position:absolute;
     bottom:0;
+    color: #fff;
 }
 
 /*footer styles ends here*/
