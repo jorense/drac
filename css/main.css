@@ -167,6 +167,22 @@ html, body { height: 100%; }
 /*navigation styles ends here*/
 
 /*footer style starts here*/
+.footer-index{
+    background-color: #c31e21;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.footer p {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 14px;
+    margin: 5px;
+    clear: both;
+    overflow: hidden
+}
+
 .footer{
     background-color: #c31e21;
     width: 100%;
@@ -177,6 +193,8 @@ html, body { height: 100%; }
     color: #fff;
     font-size: 14px;
     margin: 5px;
+    clear: both;
+    overflow: hidden
 }
 
 /*footer styles ends here*/
@@ -1275,6 +1293,8 @@ html, body { height: 100%; }
     padding: 0px 40px;
     margin: 0 auto !important;
 }
+
+
 @media only screen  and (min-width : 1824px) {
 .footer-home{
     position:absolute;
@@ -1292,6 +1312,5 @@ html, body { height: 100%; }
     font-size: 14px;
     margin: 5px;
 }
-
 /*footer styles ends here*/
 }
