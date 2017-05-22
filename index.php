@@ -143,7 +143,7 @@ include "module.inc";
 					<div class="container-fluid">
 						<div class="row">
 							<div class="col-md-6">
-								<p class="footer-item-one"> SMS Inquiry: 0917-869-84-56 | 0917-597-8744</p>
+								<p class="footer-item-one"> SMS Inquiry: 0917-869-84-56 | 0917-597-8744</p>   
 							</div>
 							<div class="col-md-6">
 								<p class="footer-item-two"> 24/7 Road-Side Assistance Hotline Number: (02) 822-0679 | (02) 400-2863 | (02) 821 -1081</p>
