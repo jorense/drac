@@ -133,11 +133,13 @@ include "module.inc";
         <?php
         echo "$reservation";
         ?>
+            <script src="form.js"></script>
+
     </div>
     <!--body content ends here-->
 </div>
 <div class="full-wrapper">
-    <div class="footer-home footer-index">
+    <div class="footer-home">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-6">
