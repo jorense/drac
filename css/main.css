@@ -1352,6 +1352,18 @@ html, body { height: 100%; }
     padding: 100px 10px;
     margin: 0px auto;
 }
+@media (min-width : 0px) {
+	.footer-home{
+		position:relative;
+		bottom:0;
+	}
+}
+
+@media (min-width : 700px) {
+.footer-home{
+    position:absolute;
+    bottom:0;
+}
 
 /*footer styles ends here*/
 }
