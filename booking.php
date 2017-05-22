@@ -35,7 +35,6 @@ include "module.inc";
     <div class="navbar  navbar-default">
         <div class="container-fluid-nav">
             <div class="row">
-                <div clas="col-md-3">
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".navbar-offcanvas" data-canvas="body">
                             <span class="icon-bar"></span>
@@ -44,10 +43,7 @@ include "module.inc";
                         </button>
                         <a class="navbar-brand" href="index.php"><img src="images/diamond-rent-a-car-logo.png" class="img-responsive center-block"></a>
                     </div>
-                </div>
-
-                <div class="col-md-7">
-                    <div class="navbar-offcanvas navmenu-fixed-left offcanvas">
+                    <div class="navbar-offcanvas navmenu-fixed-left offcanvas  navbar-left">
                         <div class="navbar-header">
                             <button type="button" class="navbar-toggle nav-bar-mobile" data-toggle="offcanvas" data-target=".navbar-offcanvas" data-canvas="body">
                                 <i class="fa fa-times" aria-hidden="true"></i>
@@ -80,25 +76,16 @@ include "module.inc";
                                 </a>
                             </li>
 
+                        <li>
+                            <a href="booking.php" class="book-now-link"> <p class="book-now" style="padding-right: 0px;">BOOK NOW </p></a></li>
+                        <li>
+
+                        <li><a href="https://www.facebook.com/DiamondRentaCar/" target="_blank" class="white-item" style="    padding-left: 0px; padding-top: 21px;"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
                         </ul>
                     </div><!--/.nav-collapse -->
-                </div>
-                <div class="col-md-2">
-                    <ul class="list-inline right-nav-item">
-                        <li>
-                            <a href="booking.php" class="book-now-link"> <p class="book-now">BOOK NOW </p></a></li>
-                        <li>
-
-                        <li><a href="https://www.facebook.com/DiamondRentaCar/" target="_blank" class="white-item"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
                     </ul>
-                </div>
             </div>
         </div>
-
-    </div>
-
-    <!--body content starts here-->
-
 </div>
     <div class="spacer hidden-lg hidden-md hidden-sm"></div>
 <div class="full-wrapper">
