@@ -74,10 +74,6 @@ html, body { height: 100%; }
     font-size: 14px;
     color: #fff;
 }
-.navbar-nav>li>a:focus {
-    color: #fff;
-}
-
 
 .navbar-default .navbar-offcanvas {
     background-color: #c31e21;
@@ -101,11 +97,11 @@ html, body { height: 100%; }
     font-family:'Roboto', sans-serif;
     font-size: 1.5rem;
     color: #fff;
-    padding: 25px 29px 0px 29px;
+    padding: 25px 25px 0px 25px;
     z-index: 9999;
 }
 
-.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:hover{
+.navbar-default .navbar-nav>li>a:hover{
     color: #d3d431;
     -webkit-transition: all 0.2s cubic-bezier(0.78, 0.21, 0.58, 1);
     transition: all 0.2s cubic-bezier(0.78, 0.21, 0.58, 1);
@@ -169,7 +165,21 @@ html, body { height: 100%; }
 /*navigation styles ends here*/
 
 /*footer style starts here*/
+.footer-index{
+    background-color: #c31e21;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
 
+.footer-index p {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 14px;
+    margin: 5px;
+    clear: both;
+    overflow: hidden
+}
 
 .footer{
     background-color: #c31e21;
@@ -658,12 +668,6 @@ html, body { height: 100%; }
 
 /* Extra Small Devices, Phones */
 @media only screen and (min-width : 480px){
-    .footer-index {
-        background-color: #c31e21;
-        width: 100%;
-        position: relative;
-        bottom: 0;
-    } 
     .navbar {
         position: fixed;
         min-height: 50px;
@@ -806,26 +810,6 @@ html, body { height: 100%; }
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
-    .footer-index{
-        background-color: #c31e21;
-        width: 100%;
-        position: absolute;
-        bottom: 0;
-    }
-
-    .footer-index p {
-        font-family: 'Roboto', sans-serif;
-        color: #fff;
-        font-size: 14px;
-        margin: 5px;
-        clear: both;
-        overflow: hidden
-    } 
-    .footer-home{
-        background-color: #c31e21;
-        width: 100%;
-    }
-
     .navbar {
         position: relative;
         min-height: 50px;
@@ -962,25 +946,6 @@ html, body { height: 100%; }
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px){
-    .footer-index{
-        background-color: #c31e21;
-        width: 100%;
-        position: relative;
-        bottom: 0;
-    }
-
-    .footer-index p {
-        font-family: 'Roboto', sans-serif;
-        color: #fff;
-        font-size: 14px;
-        margin: 5px;
-        clear: both;
-        overflow: hidden
-    } 
-    .footer-home{
-        background-color: #c31e21;
-        width: 100%;
-    }    
     .navbar {
         position: relative;
         min-height: 50px;
@@ -1328,12 +1293,6 @@ html, body { height: 100%; }
 }
 
 
-@media only screen  and (min-width : 1824px) {
-.footer-home{
-    position:absolute;
-    bottom:0;
-}
-
 .footer-home{
     background-color: #c31e21;
     width: 100%;
@@ -1346,26 +1305,16 @@ html, body { height: 100%; }
     margin: 5px;
 }
 
-#form-container  {
-    max-width: 1300px;
-    min-height: 20px;
-    padding: 100px 10px;
-    margin: 0px auto;
-}
 @media (min-width : 0px) {
 	.footer-home{
 		position:relative;
 		bottom:0;
-        color: #fff;
 	}
 }
 
 @media (min-width : 700px) {
-.footer-home{
-    position:absolute;
-    bottom:0;
-    color: #fff;
-}
-
-/*footer styles ends here*/
+	.footer-home{
+		position:absolute;
+		bottom:0;
+	}
 }
