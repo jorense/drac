@@ -27,8 +27,6 @@ html, body { height: 100%; }
     font-size: 24px;
 }
 /*navigation styles starts here*/
-
-
 .navbar-default {
     background-color: #c31e21;
     border-color: transparent;
@@ -99,7 +97,7 @@ html, body { height: 100%; }
     font-family:'Roboto', sans-serif;
     font-size: 1.5rem;
     color: #fff;
-    padding: 25px;
+    padding: 25px 25px 0px 25px;
     z-index: 9999;
 }
 

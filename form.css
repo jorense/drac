@@ -1,9 +1,9 @@
 
 #form-container  {
 	max-width: 1300px;
-	min-height: 20px;
-	padding: 0px 10px;
-	margin: 0px auto;
+    min-height: 20px;
+    padding: 30px 10px;
+    margin: 0px auto;
 }
 
 #form-container  a, .btn, #search, #car, .reservation-btn{
