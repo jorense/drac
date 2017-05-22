@@ -110,7 +110,7 @@ include "module.inc";
 
 </div>
 <div class="full-wrapper">
-    <div class="footer-home footer-index">
+    <div class="footer">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-6">
