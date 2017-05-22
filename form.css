@@ -488,7 +488,7 @@
 	}
 }
 
-@media (min-width: 700px){ 
+@media (min-width: 768px){ 
 	#form-container #reservation #field{
 		display: inline-block;
 		width: 15.1%;
