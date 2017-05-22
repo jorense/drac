@@ -34,7 +34,7 @@ include "module.inc";
 				<div class="navbar  navbar-default">
 					<div class="container-fluid-nav">
 						<div class="row">
-							<div clas="col-md-3 col-lg-3">
+							<div class="col-md-3 col-lg-3">
 								<div class="navbar-header">
 									<button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".navbar-offcanvas" data-canvas="body">
 										<span class="icon-bar"></span>

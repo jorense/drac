@@ -77,10 +77,10 @@
 					// $_SESSION["validate"] = 0;
 					// header("location:booking.php");
 					if($_POST["step"] == "back_2"){
-						$_SESSION["step"] = md5(0);
+						$_SESSION["step"] = md5(2);
 					}
 					else {
-						$_SESSION["step"] = md5(2);
+						$_SESSION["step"] = md5(4);
 						// $_SESSION["validate"] = 0;
 					}
 					// if($_POST["step"] == "back_2"){
