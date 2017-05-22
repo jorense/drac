@@ -29,6 +29,8 @@ include "module.inc";
 	</head>
 	<body>
 		<div class="mother-wrapper">
+			<div class="full-wrapper">
+				<!-- Static navbar -->
     <div class="full-wrapper">
         <!-- Static navbar -->
         <div class="navbar  navbar-default">
@@ -80,6 +82,8 @@ include "module.inc";
                             <li class="hidden-md hidden-sm hidden-xs">
                                  <a href="https://www.facebook.com/DiamondRentaCar/" target="_blank" class="white-item" style="    padding-left: 0px; padding-top: 21px;"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
                             </ul>
+						</div>
+					</div>
             </div>
         </div>
     </div>
