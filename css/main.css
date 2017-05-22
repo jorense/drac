@@ -1331,9 +1331,18 @@ html, body { height: 100%; }
 	}
 }
 
-@media (min-width : 700px) {
+@media all (min-width : 700px) {
 	.footer-home{
 		position:absolute;
 		bottom:0;
 	}
+}
+
+
+/* Large screens ----------- */
+@media all (min-width : 1824px) {
+    .footer-home{
+        position:relative;
+        bottom:0;
+    }
 }
