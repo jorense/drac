@@ -31,62 +31,68 @@ include "module.inc";
 
 <div class="mother-wrapper">
     <div class="full-wrapper">
-    <!-- Static navbar -->
-     <div class="navbar  navbar-default">
-        <div class="container-fluid-nav">
-            <div class="row">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".navbar-offcanvas" data-canvas="body">
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a class="navbar-brand" href="index.php"><img src="images/diamond-rent-a-car-logo.png" class="img-responsive center-block"></a>
-                    </div>
-                    <div class="navbar-offcanvas navmenu-fixed-left offcanvas  navbar-left">
+        <!-- Static navbar -->
+        <div class="navbar  navbar-default">
+            <div class="container-fluid-nav">
+                <div class="row">
                         <div class="navbar-header">
-                            <button type="button" class="navbar-toggle nav-bar-mobile" data-toggle="offcanvas" data-target=".navbar-offcanvas" data-canvas="body">
-                                <i class="fa fa-times" aria-hidden="true"></i>
+                            <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".navbar-offcanvas" data-canvas="body">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
                             </button>
+                            <a class="navbar-brand" href="index.php"><img src="images/diamond-rent-a-car-logo.png" class="img-responsive center-block"></a>
                         </div>
-                        <ul class="nav navbar-nav">
-                            <li>
-                                <a href="index.php"  class="selected">
-                                    Home
-                                </a>
-                            </li>
-                            <li>
-                                <a href="about-us.html">
-                                    About Us
-                                </a>
-                            </li>
-                            <li>
-                                <a href="promos-updates.html">
-                                    Promos &amp; Updates
-                                </a>
-                            </li>
-                            <li>
-                                <a href="products-services.html">
-                                    Products &amp; Services
-                                </a>
-                            </li>
-                            <li>
-                                <a href="contact-us.html">
-                                    Contact Us
-                                </a>
-                            </li>
+                        <div class="navbar-offcanvas navmenu-fixed-left offcanvas  navbar-left">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle nav-bar-mobile" data-toggle="offcanvas" data-target=".navbar-offcanvas" data-canvas="body">
+                                    <i class="fa fa-times" aria-hidden="true"></i>
+                                </button>
+                            </div>
+                            <ul class="nav navbar-nav">
+                                <li>
+                                    <a href="index.php"  class="selected">
+                                        Home
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="about-us.html">
+                                        About Us
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="promos-updates.html">
+                                        Promos &amp; Updates
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="products-services.html">
+                                        Products &amp; Services
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="contact-us.html">
+                                        Contact Us
+                                    </a>
+                                </li>
+                            <li class="hidden-md hidden-sm hidden-xs">
+                                <a href="booking.php" class="book-now-link"> <p class="book-now" style="padding-right: 0px;">BOOK NOW </p></a></li>
+                            <li>                            
+                            <li class="hidden-md hidden-sm hidden-xs">
+                                 <a href="https://www.facebook.com/DiamondRentaCar/" target="_blank" class="white-item" style="    padding-left: 0px; padding-top: 21px;"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+                            </ul>
 
+                        </div><!--/.nav-collapse -->
+                    <ul class="list-inline right-nav-item hidden-lg">
                         <li>
-                            <a href="booking.php" class="book-now-link"> <p class="book-now" style="padding-right: 0px;">BOOK NOW </p></a></li>
+                            <a href="booking.php" class="book-now-link"> <p class="book-now">BOOK NOW </p></a></li>
                         <li>
 
-                        <li><a href="https://www.facebook.com/DiamondRentaCar/" target="_blank" class="white-item" style="    padding-left: 0px; padding-top: 21px;"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
-                        </ul>
-                    </div><!--/.nav-collapse -->
+                        <li><a href="https://www.facebook.com/DiamondRentaCar/" target="_blank" class="white-item"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
                     </ul>
             </div>
         </div>
-</div>
+    </div>
 <div class="full-wrapper">
 <div class="spacer hidden-lg hidden-md hidden-sm"></div>
 </div>
