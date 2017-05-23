@@ -20,6 +20,12 @@ html, body { height: 100%; }
     height: auto;
 }
 
+.full-wrapper-footer {
+    width: 100%;
+    float: left;
+    height: auto;    
+}
+
 .headers{
     font-family: 'Roboto', sans-serif;
     color: #c31e21;
@@ -659,13 +665,13 @@ html, body { height: 100%; }
     .form-control-1 {
         width: 100%;
     }
-    .booking-height{
-        height: 89vh;
-    }
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (min-width : 480px){
+    #homepage-carousel {
+    padding-top: 104px;
+    }    
     .carousel-control {
         width: 5%;
         top: -57%;
@@ -768,13 +774,14 @@ html, body { height: 100%; }
     .form-control-1 {
         width: 100%;
     }
-    .booking-height{
-        height: 160vh;
-    }
+
 }
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px){
+    #homepage-carousel {
+        padding-top: 0;
+    }    
     .carousel-control {
         width: 5%;
         top: -45%;
@@ -798,6 +805,9 @@ html, body { height: 100%; }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px){
+    #homepage-carousel {
+        padding-top: 0;
+    }    
     .carousel-control {
         width: 5%;
         top: -57%;
@@ -828,6 +838,9 @@ html, body { height: 100%; }
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
+    #homepage-carousel {
+        padding-top: 0;
+    }    
     .fa-facebook-square {
         font-size: 1.5em;
         margin-top: 3px;
@@ -959,14 +972,14 @@ html, body { height: 100%; }
         padding: 0;
     }
 
-    .booking-height{
-        height: 86vh;
-    }
 }
 
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px){
+    #homepage-carousel {
+        padding-top: 0;
+    }     
     .fa-facebook-square {
         font-size: 1.5em;
         margin-top: 3px;
@@ -1073,13 +1086,13 @@ html, body { height: 100%; }
         clear: both;
         padding: 0;
     }
-    .booking-height{
-        height: 86vh;
-    }
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px){
+    #homepage-carousel {
+        padding-top: 0;
+    }    
     .carousel-control {
         width: 5%;
         top: -57%;
@@ -1109,6 +1122,9 @@ html, body { height: 100%; }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px){
+    #homepage-carousel {
+        padding-top: 0;
+    }    
     .carousel-control {
         width: 5%;
         top: -45%;
@@ -1137,6 +1153,9 @@ html, body { height: 100%; }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px){
+    #homepage-carousel {
+    padding-top: 104px;
+    }    
     .carousel-control {
         width: 5%;
         top: -57%;
@@ -1239,9 +1258,6 @@ html, body { height: 100%; }
     .form-control-1 {
         width: 100%;
     }
-    .booking-height{
-        height: 121vh;
-    }
 }
 
 /* Custom, iPhone Retina */
@@ -1323,9 +1339,6 @@ html, body { height: 100%; }
     .form-control-1 {
         width: 100%;
     }
-    .booking-height{
-        height: 160vh;
-    }
 }
 
 
@@ -1350,7 +1363,7 @@ html, body { height: 100%; }
 
 @media (min-width : 0px) {
 	.footer-home{
-		position: relative;
+		position: absolute;
 		bottom:0;
 	}
     .footer-booking{
@@ -1365,7 +1378,7 @@ html, body { height: 100%; }
 		bottom:0;
 	}
     .footer-booking{
-        position:absolute;
+        position: absolute;
         bottom:0;
     }    
 }
@@ -1373,7 +1386,7 @@ html, body { height: 100%; }
 
 @media screen and (min-width: 1400px) {
     .footer-booking{
-        position:absolute;
+        position: absolute;
         bottom:0;
     } 
 }
