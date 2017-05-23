@@ -1350,7 +1350,7 @@ html, body { height: 100%; }
 
 @media (min-width : 0px) {
 	.footer-home{
-		position:relative;
+		position: relative;
 		bottom:0;
 	}
     .footer-booking{
@@ -1369,19 +1369,9 @@ html, body { height: 100%; }
         bottom:0;
     }    
 }
+
+
 @media screen and (min-width: 1400px) {
-    .footer-booking{
-        position:absolute;
-        bottom:0;
-    } 
-}
-@media screen and (min-width: 1600px) {
-    .footer-booking{
-        position:absolute;
-        bottom:0;
-    } 
-}
-@media screen and (min-width: 1900px) {
     .footer-booking{
         position:absolute;
         bottom:0;
