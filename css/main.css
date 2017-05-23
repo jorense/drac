@@ -666,6 +666,10 @@ html, body { height: 100%; }
 
 /* Extra Small Devices, Phones */
 @media only screen and (min-width : 480px){
+    .carousel-control {
+        width: 5%;
+        top: -57%;
+    }    
     .fa-facebook-square {
         font-size: 1.5em;
     }    
@@ -771,6 +775,10 @@ html, body { height: 100%; }
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px){
+    .carousel-control {
+        width: 5%;
+        top: -45%;
+    }   
     .fa-facebook-square {
         font-size: 1.5em;
     }    
@@ -790,6 +798,10 @@ html, body { height: 100%; }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px){
+    .carousel-control {
+        width: 5%;
+        top: -57%;
+    }    
     .fa-facebook-square {
         font-size: 1.5em;
     }   
@@ -1068,6 +1080,10 @@ html, body { height: 100%; }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px){
+    .carousel-control {
+        width: 5%;
+        top: -57%;
+    }    
     .fa-facebook-square {
         font-size: 1.5em;
     }   
@@ -1093,6 +1109,10 @@ html, body { height: 100%; }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px){
+    .carousel-control {
+        width: 5%;
+        top: -45%;
+    }    
     .fa-facebook-square {
         font-size: 1.5em;
     }     
@@ -1117,6 +1137,10 @@ html, body { height: 100%; }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px){
+    .carousel-control {
+        width: 5%;
+        top: -57%;
+    }    
     .fa-facebook-square {
         font-size: 1.5em;
     }    
