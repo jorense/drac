@@ -1329,6 +1329,10 @@ html, body { height: 100%; }
 		position:relative;
 		bottom:0;
 	}
+    .footer-booking{
+        position:relative;
+        bottom:0;
+    }    
 }
 
 @media all (min-width : 700px) {
@@ -1336,13 +1340,26 @@ html, body { height: 100%; }
 		position:absolute;
 		bottom:0;
 	}
-}
-
-
-/* Large screens ----------- */
-@media all (min-width : 1824px) {
-    .footer-home{
-        position:relative;
+    .footer-booking{
+        position:absolute;
         bottom:0;
-    }
+    }    
+}
+@media screen and (min-width: 1400px) {
+    .footer-booking{
+        position:absolute;
+        bottom:0;
+    } 
+}
+@media screen and (min-width: 1600px) {
+    .footer-booking{
+        position:absolute;
+        bottom:0;
+    } 
+}
+@media screen and (min-width: 1900px) {
+    .footer-booking{
+        position:absolute;
+        bottom:0;
+    } 
 }
