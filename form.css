@@ -182,7 +182,7 @@
 	min-height: 50px;
 	font-family: Lato;
 	font-weight: 400;
-	font-size: 11px;
+	font-size: 14px;
 	line-height: 18px;
 	color: #bdb9b9;
 }
@@ -245,7 +245,7 @@
 	min-height: 50px;
 	font-family: Lato;
 	font-weight: 400;
-	font-size: 11px;
+	font-size: 14px;
 	line-height: 18px;
 	color: #676767;
 	background: #fff url("form-image/form-date.svg") no-repeat right 20px center;
@@ -380,6 +380,7 @@
 
 #form-container #filter-result #car-container #car-button{
 	margin-bottom: 10px;
+	cursor: pointer;
 }
 
 #form-container #filter-result #car-container h1{
@@ -400,16 +401,14 @@
 	border-radius: 0px;
 	border: 0px;
 	width: 100%;
+	height: 40px;
 }
 
 #form-container #filter-result #car-container #car:hover{
 	border: 1px solid #dd0000 !important;
 	background-color: #dd0000;
-	padding: 10px;
 	color: #ffffff;
 	border-radius: 0px;
-	border: 0px;
-	width: 100%;
 }
 
 #form-container #filter-result #car-container #car h2{
@@ -465,7 +464,7 @@
 	min-height: 50px;
 	font-family: Lato;
 	font-weight: 400;
-	font-size: 11px;
+	font-size: 14px;
 	line-height: 18px;
 	color: #bdb9b9;
 }
@@ -475,7 +474,7 @@
 	min-height: 50px;
 	font-family: Lato;
 	font-weight: 400;
-	font-size: 11px;
+	font-size: 14px;
 	line-height: 18px;
 	color: #bdb9b9;
 	background: #fff url("form-image/form-dropdown.svg") no-repeat right 10px center;
@@ -522,7 +521,7 @@
 @media (min-width: 768px){ 
 	#form-container #reservation #field{
 		display: inline-block;
-		width: 12.5%;
+		width: 14.957%;
 		margin: 0px 5px;
 	}
 
@@ -536,7 +535,7 @@
 @media (min-width: 1232px){ 
 	#form-container #reservation #field{
 		display: inline-block;
-		width: 10.5%;
+		width: 12.45%;
 		margin: 0px 5px;
 	}
 

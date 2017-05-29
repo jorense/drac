@@ -336,25 +336,27 @@
 								<input type='text' id='check_in_date' class='date-picker-custom' placeholder='Reservation Date' name='date_of_birth' required readonly>
 							</div>
 						</div>
-						<div id='field'>
-							<div class='form-group'>
-								<select class='form-control custom-select' name='passenger'>
-									<option value=''>Passenger(s)</option>
-									<option value='1 Passengers'>1 Passenger</option>
-									<option value='2 Passengers'>2 Passengers</option>
-									<option value='3 Passengers'>3 Passengers</option>
-									<option value='4 Passengers'>4 Passengers</option>
-									<option value='5 Passengers'>5 Passengers</option>
-									<option value='6 Passengers'>6 Passengers</option>
-									<option value='7 Passengers'>7 Passengers</option>
-									<option value='8 Passengers'>8 Passengers</option>
-									<option value='9 Passengers'>9 Passengers</option>
-									<option value='10 Passengers'>10 Passengers</option>
-									<option value='11 Passengers'>11 Passengers</option>
-									<option value='12 Passengers'>12 Passengers</option>
-								</select>
+						<!--
+							<div id='field'>
+								<div class='form-group'>
+									<select class='form-control custom-select' name='passenger'>
+										<option value=''>Passenger(s)</option>
+										<option value='1 Passengers'>1 Passenger</option>
+										<option value='2 Passengers'>2 Passengers</option>
+										<option value='3 Passengers'>3 Passengers</option>
+										<option value='4 Passengers'>4 Passengers</option>
+										<option value='5 Passengers'>5 Passengers</option>
+										<option value='6 Passengers'>6 Passengers</option>
+										<option value='7 Passengers'>7 Passengers</option>
+										<option value='8 Passengers'>8 Passengers</option>
+										<option value='9 Passengers'>9 Passengers</option>
+										<option value='10 Passengers'>10 Passengers</option>
+										<option value='11 Passengers'>11 Passengers</option>
+										<option value='12 Passengers'>12 Passengers</option>
+									</select>
+								</div>
 							</div>
-						</div>
+						-->
 						<div id='field'>
 							<div class='form-group'>
 								<select class='form-control custom-select' name='gender'>
@@ -386,4 +388,40 @@
 			$_SESSION["reservation"] = md5(0);
 		break;
 	}
+	$car_listing = "
+		<div id='form'>
+			<div id='filter'>
+				<form action='".$_SERVER['PHP_SELF']."' method='get'>
+					<div class='row'>
+						<div class='col-xs-6 col-sm-5'>
+							<select class='form-control custom-select' name='id'>
+								$id_list
+							</select>
+						</div>
+						<div class='col-xs-6 col-sm-5'>
+							<select class='form-control custom-select' name='type'>
+								$type_list
+							</select>
+						</div>
+						<div class='col-xs-12 col-sm-2'>
+							<button type='submit' id='search'><i class='fa fa-search'></i></button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+		<div id='filter-result'>
+			".implode($carlist)."
+		</div>
+		<div id='form'>
+			<div id='filter'>
+				<form action='".$_SERVER['PHP_SELF']."' method='post'>
+					<div id='buttons'>
+						<input type='hidden' name='step' value='back_0'>
+						<input type='submit' class='btn' name='submit' value='BACK'>
+					</div>
+				</form>
+			</div>
+		</div>
+	";
 ?>

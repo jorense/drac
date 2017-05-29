@@ -1356,7 +1356,7 @@ html, body { height: 100%; }
     .footer-booking{
         position:relative;
         bottom:0;
-    }    
+    }
 }
 
 @media all (min-width : 700px) {
@@ -1367,7 +1367,7 @@ html, body { height: 100%; }
     .footer-booking{
         position:absolute;
         bottom:0;
-    }    
+    }
 }
 
 
