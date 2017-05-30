@@ -158,7 +158,6 @@
 						$car110,
 						$car220,
 						$car411,
-						$car511,
 						$car730
 					);
 				}
@@ -166,8 +165,7 @@
 				elseif($_GET["id"] == md5(1) && $_GET["type"] == md5(1)){
 					$carlist = Array(
 						$car110,
-						$car411,
-						$car511
+						$car411
 					);
 				}
 				// Sedan w/ Manual Transmission
@@ -192,14 +190,16 @@
 						$car220,
 						$car322,
 						$car612,
-						$car730
+						$car730,
+						$car511
 					);
 				}
 				// SUV w/ Automatic Transmission
 				elseif($_GET["id"] == md5(1) && $_GET["type"] == md5(2)){
 					$carlist = Array(
 						$car110,
-						$car612
+						$car612,
+						$car511
 					);
 				}
 				// Sedan w/ Automatic Transmission
