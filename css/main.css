@@ -1396,3 +1396,29 @@ html, body { height: 100%; }
         bottom:0;
     }
 }
+
+
+/* Jaypee's styles  */
+
+/* .navbar #container{
+	max-width: 1400px;
+	padding: 10px 20px;
+	margin: 0 auto;
+} */
+
+#social-container {
+	position: absolute;
+	right: 0;
+	text-align: right;
+	padding: 0px 20px;
+}
+
+@media (min-width: 0px){
+	#social-container {
+	display: none;
+}
+
+@media (min-width: 700px){
+	#social-container {
+	display: inline-block;
+}
