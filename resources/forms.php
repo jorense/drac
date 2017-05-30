@@ -413,15 +413,5 @@
 		<div id='filter-result'>
 			".implode($carlist)."
 		</div>
-		<div id='form'>
-			<div id='filter'>
-				<form action='".$_SERVER['PHP_SELF']."' method='post'>
-					<div id='buttons'>
-						<input type='hidden' name='step' value='back_0'>
-						<input type='submit' class='btn' name='submit' value='BACK'>
-					</div>
-				</form>
-			</div>
-		</div>
 	";
 ?>
