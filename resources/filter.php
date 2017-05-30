@@ -107,7 +107,10 @@
 				$car110,
 				$car220,
 				$car322,
-				$car411
+				$car411,
+				$car511,
+				$car612,
+				$car730
 			);
 		}
 		else{
