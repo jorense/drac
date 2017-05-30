@@ -92,6 +92,7 @@ include "module.inc";
             </div>
         </div>
     </div> <!-- /nav bar ends here--->
+		</div><!-- /full-wrapper ends here--->
 				<div class="full-wrapper">
 					<div id="homepage-carousel" class="carousel slide" data-ride="carousel" data-interval="100000">
 					  <!-- Indicators -->
@@ -126,7 +127,6 @@ include "module.inc";
 					</div>
 				</div>
 				<!--body content starts here-->
-			</div>
 			<div class="full-wrapper">
 				<div id="form-container">
 					<?php
@@ -134,7 +134,7 @@ include "module.inc";
 					?>
 					<script src="form.js"></script>
 				</div>
-			</div>
+			</div><!-- /full-wrapper ends here--->
 			<div class="full-wrapper">
 				<div class="footer-home">
 					<div class="container-fluid">
@@ -148,7 +148,7 @@ include "module.inc";
 						</div>
 					</div>
 				</div>
-			</div>
-		</div>
+			</div><!-- /full-wrapper ends here--->
+	</div><!-- /mother-wrapper ends here--->
 	</body>
 </html>
