@@ -93,6 +93,7 @@ include "module.inc";
 			</div> <!-- /nav bar ends here--->
 		</div>
 		<div class="full-wrapper">
+	    <div class="spacer hidden-lg hidden-md hidden-sm"></div>
 			<div id="form-container">
 				<?php
 					echo "$car_listing";
