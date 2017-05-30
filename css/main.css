@@ -23,7 +23,7 @@ html, body { height: 100%; }
 .full-wrapper-footer {
     width: 100%;
     float: left;
-    height: auto;    
+    height: auto;
 }
 
 .headers{
@@ -103,7 +103,7 @@ html, body { height: 100%; }
     font-family:'Roboto', sans-serif;
     font-size: 1.5rem;
     color: #fff;
-    padding: 25px 25px 10px 25px;
+    padding: 25px 25px 20px 25px;
         z-index: 9999;
 }
 
@@ -671,14 +671,14 @@ html, body { height: 100%; }
 @media only screen and (min-width : 480px){
     #homepage-carousel {
     padding-top: 104px;
-    }    
+    }
     .carousel-control {
         width: 5%;
         top: -57%;
-    }    
+    }
     .fa-facebook-square {
         font-size: 1.5em;
-    }    
+    }
     .navbar {
         position: fixed;
         min-height: 50px;
@@ -688,7 +688,7 @@ html, body { height: 100%; }
         z-index: 999;
         width: 100%;
     }
-    
+
 
     .footer-item-two{
         text-align: center;
@@ -781,14 +781,14 @@ html, body { height: 100%; }
 @media only screen and (min-width : 768px){
     #homepage-carousel {
         padding-top: 0;
-    }    
+    }
     .carousel-control {
         width: 5%;
         top: -45%;
-    }   
+    }
     .fa-facebook-square {
         font-size: 1.5em;
-    }    
+    }
     .navbar-brand img {
         position: relative;
         top: 5px;
@@ -807,14 +807,14 @@ html, body { height: 100%; }
 @media only screen and (min-width : 992px){
     #homepage-carousel {
         padding-top: 0;
-    }    
+    }
     .carousel-control {
         width: 5%;
         top: -57%;
-    }    
+    }
     .fa-facebook-square {
         font-size: 1.5em;
-    }   
+    }
     .navbar-brand img {
         position: relative;
         top: 5px;
@@ -826,7 +826,7 @@ html, body { height: 100%; }
     padding-top: 7px;
     padding-left: 279px;
 }
-   
+
 
     .footer-item-two{
         text-align: right;
@@ -840,17 +840,17 @@ html, body { height: 100%; }
 @media only screen and (min-width : 1200px) {
     #homepage-carousel {
         padding-top: 0;
-    }    
+    }
     .fa-facebook-square {
         font-size: 1.5em;
         margin-top: 3px;
-    }    
+    }
     .navbar {
         position: relative;
         min-height: 50px;
         margin-bottom: 20px;
         border: 1px solid transparent;
-        
+
     }
 
    /*carousel style starts here*/
@@ -882,6 +882,8 @@ html, body { height: 100%; }
         width: 100px;
         text-align: center;
         font-size: 17px;
+        display: inline;
+        padding: 10px;
     }
 
     .book-now-link:hover, .book-now-link:focus, .book-now-link:active {
@@ -979,17 +981,17 @@ html, body { height: 100%; }
 @media only screen and (max-width : 1200px){
     #homepage-carousel {
         padding-top: 0;
-    }     
+    }
     .fa-facebook-square {
         font-size: 1.5em;
         margin-top: 3px;
-    } 
+    }
     .navbar {
         position: relative;
         min-height: 50px;
         margin-bottom: 20px;
         border: 1px solid transparent;
-        
+
     }
     /*carousel style starts here*/
 
@@ -1092,14 +1094,14 @@ html, body { height: 100%; }
 @media only screen and (max-width : 992px){
     #homepage-carousel {
         padding-top: 0;
-    }    
+    }
     .carousel-control {
         width: 5%;
         top: -57%;
-    }    
+    }
     .fa-facebook-square {
         font-size: 1.5em;
-    }   
+    }
     .navbar-brand img {
         position: relative;
         top: 5px;
@@ -1111,7 +1113,7 @@ html, body { height: 100%; }
     padding-top: 7px;
     padding-left: 279px;
     }
-    
+
     .footer-item-two{
         text-align: right;
     }
@@ -1124,14 +1126,14 @@ html, body { height: 100%; }
 @media only screen and (max-width : 768px){
     #homepage-carousel {
         padding-top: 0;
-    }    
+    }
     .carousel-control {
         width: 5%;
         top: -45%;
-    }    
+    }
     .fa-facebook-square {
         font-size: 1.5em;
-    }     
+    }
        .navbar-brand img {
         position: relative;
         top: 5px;
@@ -1155,14 +1157,14 @@ html, body { height: 100%; }
 @media only screen and (max-width : 480px){
     #homepage-carousel {
     padding-top: 104px;
-    }    
+    }
     .carousel-control {
         width: 5%;
         top: -57%;
-    }    
+    }
     .fa-facebook-square {
         font-size: 1.5em;
-    }    
+    }
     .navbar {
         position: fixed;
         min-height: 50px;
@@ -1172,7 +1174,7 @@ html, body { height: 100%; }
         z-index: 999;
         width: 100%;
     }
-   
+
     .footer-item-two{
         text-align: center;
     }
@@ -1388,5 +1390,5 @@ html, body { height: 100%; }
     .footer-booking{
         position: absolute;
         bottom:0;
-    } 
+    }
 }

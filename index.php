@@ -65,8 +65,8 @@ include "module.inc";
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="products-services.html">
-                                        Products &amp; Services
+                                    <a href="carlisting.php">
+                                        Car Listing
                                     </a>
                                 </li>
                                 <li>
@@ -75,8 +75,8 @@ include "module.inc";
                                     </a>
                                 </li>
                             <li class="hidden-md hidden-sm hidden-xs">
-                                <a href="booking.php" class="book-now-link"> <p class="book-now" style="padding-right: 0px;">BOOK NOW </p></a></li>
-                            <li>                            
+                                <a href="#" class="book-now-link"> <p class="book-now">CHOOSE YOUR RIDE</p></a></li>
+                            <li>
                             <li class="hidden-md hidden-sm hidden-xs">
                                  <a href="https://www.facebook.com/DiamondRentaCar/" target="_blank" class="white-item" style="    padding-left: 0px; padding-top: 21px;"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
                             </ul>
@@ -84,14 +84,14 @@ include "module.inc";
                         </div><!--/.nav-collapse -->
                     <ul class="list-inline right-nav-item hidden-lg">
                         <li>
-                            <a href="booking.php" class="book-now-link"> <p class="book-now">BOOK NOW </p></a></li>
+                            <a href="#" class="book-now-link"> <p class="book-now">CHOOSE YOUR RIDE</p></a></li>
                         <li>
 
                         <li><a href="https://www.facebook.com/DiamondRentaCar/" target="_blank" class="white-item"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
                     </ul>
             </div>
         </div>
-    </div>
+    </div> <!-- /nav bar ends here--->
 				<div class="full-wrapper">
 					<div id="homepage-carousel" class="carousel slide" data-ride="carousel" data-interval="100000">
 					  <!-- Indicators -->
@@ -113,7 +113,7 @@ include "module.inc";
 						  <img src="images/homepage-carousel-3.jpg" alt="New York">
 						</div>
 					  </div>
-					
+
 					  <!-- Left and right controls -->
 					  <a class="left carousel-control" href="#homepage-carousel" data-slide="prev">
 						<span class="glyphicon glyphicon-chevron-left"></span>
