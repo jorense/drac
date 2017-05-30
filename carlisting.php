@@ -104,19 +104,19 @@ include "module.inc";
 			</div>
 		</div>
 		<div class="full-wrapper">
-	    <div class="footer">
-	        <div class="container-fluid">
-	            <div class="row">
-	                <div class="col-md-6">
-	                    <p class="footer-item-one"> SMS Inquiry: 0917-869-84-56 | 0917-597-8744</p>
-	                </div>
-	                <div class="col-md-6">
-	                    <p class="footer-item-two"> 24/7 Road-Side Assistance Hotline Number: (02) 822-0679 | (02) 400-2863 | (02) 821 -1081</p>
-	                </div>
-	            </div>
-	        </div>
-	    </div>
-		</div>
+			<div class="footer-home">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-6">
+							<p class="footer-item-one"> SMS Inquiry: 0917-869-84-56 | 0917-597-8744</p>
+						</div>
+						<div class="col-md-6">
+							<p class="footer-item-two"> 24/7 Road-Side Assistance Hotline Number: (02) 822-0679 | (02) 400-2863 | (02) 821 -1081</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!-- /full-wrapper ends here--->
 	</div> <!-- mother wrapper ends here-->
 
 		<script src="form.js"></script>
