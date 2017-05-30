@@ -42,7 +42,7 @@
 	$car220 = "<div id='car-container'><img src='./car-image/toyota_vios.jpg'><h1>TOYOTA VIOS</h1><div id='car-button'><div id='car'><h2>MANUAL</h2><h3>Php 1,899/day</h3></div></div><div id='car-button'><div id='car'><h2>AUTOMATIC</h2><h3>Php 2,199/day</h3></div></div></div>";
 	$car322 = "<div id='car-container'><img src='./car-image/toyota_altis.jpg'><h1>TOYOTA ALTIS</h1><div id='car-button'><div id='car'><h2>AUTOMATIC</h2><h3>Php 2,399/day</h3></div></div></div>";
 	$car411 = "<div id='car-container'><img src='./car-image/toyota_innova.jpg'><h1>TOYOTA INNOVA</h1><div id='car-button'><div id='car'><h2>MANUAL</h2><h3>Php 2,599/day</h3></div></div></div>";
-	$car511 = "<div id='car-container'><img src='./car-image/toyoya_fortuner.jpg'><h1>TOYOTA WIGO</h1><div id='car-button'><div id='car'><h2>AUTOMATIC</h2><h3>Php 4,499/day</h3></div></div></div>";
+	$car511 = "<div id='car-container'><img src='./car-image/toyoya_fortuner.jpg'><h1>TOYOTA FORTUNER</h1><div id='car-button'><div id='car'><h2>AUTOMATIC</h2><h3>Php 4,499/day</h3></div></div></div>";
 	$car612 = "<div id='car-container'><img src='./car-image/toyota_camry.jpg'><h1>TOYOTA CAMRY</h1><div id='car-button'><div id='car'><h2>AUTOMATIC</h2><h3>Php 4,499/day</h3></div></div></div>";
 	$car730 = "<div id='car-container'><img src='./car-image/nissan_urvan.jpg'><h1>NISSAN URVAN</h1><div id='car-button'><div id='car'><h2>w/ DRIVER</h2><h3>Php 3,899/10 hours</h3></div></div></div>";
 ?>
