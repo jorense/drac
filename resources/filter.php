@@ -2,42 +2,27 @@
 	// ID list starts here
 
 	if(isset($_GET["id"])){
-		$id_list ="<option value='".$_GET["id"]."'>";
-		switch ($_GET["id"]){
-			case md5(0):
-				$id_list .="Type of Car";	
-			break;
-			case md5(1):
-				$id_list .="SUV";	
-			break;
-			case md5(2):
-				$id_list .="Sedan";	
-			break;
-			case md5(3):
-				$id_list .="Van";	
-			break;
-		}
-		$id_list .="</option>";
+		$id_list ="";
 		
 		for($c=0; $c<=4; $c++){
 			if($_GET["id"] == md5($c)){
-				$display_id = "none";
+				$display_id = "disabled selected";
 			}
 			else{
-				$display_id = "inherit";
+				$display_id = "";
 			}
 			switch (md5($c)){
 				case md5(0):
-					$id_list .="<option value='".md5(0)."' style='display:".$display_id.";'>Type of Car</option>";
+					$id_list .="<option value='".md5(0)."' ".$display_id.">Type of Car</option>";
 				break;
 				case md5(1):
-					$id_list .="<option value='".md5(1)."' style='display:".$display_id.";'>SUV</option>";
+					$id_list .="<option value='".md5(1)."' ".$display_id.">SUV</option>";
 				break;
 				case md5(2):
-					$id_list .="<option value='".md5(2)."' style='display:".$display_id.";'>Sedan</option>";
+					$id_list .="<option value='".md5(2)."' ".$display_id.">Sedan</option>";
 				break;
 				case md5(3):
-					$id_list .="<option value='".md5(3)."' style='display:".$display_id.";'>Van</option>";
+					$id_list .="<option value='".md5(3)."' ".$display_id.">Van</option>";
 				break;
 			}
 		}
@@ -56,36 +41,24 @@
 	// type list starts here
 	
 	if(isset($_GET["type"])){
-		$type_list ="<option value='".$_GET["type"]."'>";
-		switch ($_GET["type"]){
-			case md5(0):
-				$type_list .="Manual / Automatic";	
-			break;
-			case md5(1):
-				$type_list .="Manual Transmission";	
-			break;
-			case md5(2):
-				$type_list .="Automatic Transmission";	
-			break;
-		}
-		$type_list .="</option>";
+		$type_list ="";
 													
 		for($d=0; $d<=3; $d++){
 			if($_GET["type"] == md5($d)){
-				$display_type = "none";
+				$display_type = "disabled selected";
 			}
 			else{
-				$display_type = "inherit";
+				$display_type = "";
 			}
 			switch (md5($d)){
 				case md5(0):
-					$type_list .="<option value='".md5(0)."' style='display:".$display_type.";'>Manual / Automatic</option>";
+					$type_list .="<option value='".md5(0)."' ".$display_type.">Manual / Automatic</option>";
 				break;
 				case md5(1):
-					$type_list .="<option value='".md5(1)."' style='display:".$display_type.";'>Manual Transmission</option>";
+					$type_list .="<option value='".md5(1)."' ".$display_type.">Manual Transmission</option>";
 				break;
 				case md5(2):
-					$type_list .="<option value='".md5(2)."' style='display:".$display_type.";'>Automatic Transmission</option>";
+					$type_list .="<option value='".md5(2)."' ".$display_type.">Automatic Transmission</option>";
 				break;
 			}
 		}
