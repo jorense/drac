@@ -104,7 +104,7 @@ include "module.inc";
 			</div>
 		</div>
 		<div class="full-wrapper">
-			<div class="footer-home">
+			<div class="footer">
 				<div class="container-fluid">
 					<div class="row">
 						<div class="col-md-6">
