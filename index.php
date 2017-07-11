@@ -60,13 +60,13 @@ include "module.inc";
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="promos-updates.html">
-                                        Promos &amp; Updates
+                                    <a href="corporate.html">
+                                        Corporate
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="carlisting.php">
-                                        Car Listing
+                                    <a href="promos-updates.html">
+                                        Promos &amp; Updates
                                     </a>
                                 </li>
                                 <li>

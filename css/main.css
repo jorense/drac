@@ -429,6 +429,7 @@ html, body { height: 100%; }
     text-align: center;
     font-weight:bold;
     margin: 0;
+    font-size: 20px;
 }
 .promo-inside-text{
     color: #585858;
